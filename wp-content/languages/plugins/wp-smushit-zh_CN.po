@@ -1,0 +1,3286 @@
+# Translation of Plugins - Smush &#8211; Optimize, Compress and Lazy Load Images - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Smush &#8211; Optimize, Compress and Lazy Load Images - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-31 07:08:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Smush &#8211; Optimize, Compress and Lazy Load Images - Stable (latest release)\n"
+
+#: core/class-settings.php:303
+msgid "Backup Original Images"
+msgstr "备份原始图像"
+
+#: core/class-error-handler.php:258
+#: core/media-library/class-media-library-row.php:79
+msgid "File processing is in progress."
+msgstr "文件处理正在进行中。"
+
+#. translators: %d - attachment ID
+#: core/modules/class-smush.php:964
+msgid "attachment ID: %d"
+msgstr "附件 ID: %d"
+
+#. translators: %s - plugin name
+#: core/external/free-dashboard/classes/notices/class-rating.php:62
+msgid "You’ve been using %s for over a week now, and we’d love to hear about your experience! We’ve spent countless hours developing it for you, and your feedback is important to us. We’d really appreciate your rating."
+msgstr "您已经使用 %s 一个多星期了，我们很想听听您的体验！我们花了无数时间为您开发它，您的反馈对我们很重要。我们非常感谢您的评价。"
+
+#. translators: %s - plugin name
+#: core/external/free-dashboard/classes/notices/class-rating.php:58
+msgid "Enjoying %s? We’d love to hear your feedback!"
+msgstr "享受 %s 吗？我们很想听听您的反馈！"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:90
+msgid "Email"
+msgstr "电子邮件"
+
+#. translators: %s - plugin name
+#: core/external/free-dashboard/classes/notices/class-email.php:59
+msgid "We're happy that you've chosen to install %s!"
+msgstr "我们很高兴您选择安装 %s！"
+
+#: core/class-settings.php:284
+msgid "As of version 5.3, WordPress creates a scaled version of uploaded images over 2560x2560px by default, and keeps your original uploaded images as a backup. If desired, you can choose a different resizing threshold or disable the scaled images altogether."
+msgstr "从 5.3 版开始，WordPress 默认会创建超过 2560x2560 像素的缩放版本的上传图片，并将您上传的原始图片作为备份。如果需要，您可以选择不同的调整大小阈值或完全禁用缩放图像。"
+
+#: core/class-configs.php:99 core/class-installer.php:282
+msgid "Default config"
+msgstr "默认配置"
+
+#. translators: %d - attachment ID
+#: core/class-cli.php:286
+msgid "Image %d cannot be restored"
+msgstr "图像 %d 无法恢复"
+
+#: app/views/nextgen/summary-meta-box.php:29
+msgid "Images optimized in the NextGEN Gallery"
+msgstr "在 NextGEN Gallery 中优化的图像"
+
+#: app/common/circle-progress-bar.php:9
+msgid "Images optimized in the media library"
+msgstr "在媒体库中优化的图像"
+
+#: app/views/bulk-settings/meta-box.php:91
+msgid "Note: Backup original images must be enabled in order to bulk restore your images."
+msgstr "注意：必须启用备份原始图像才能批量恢复您的图像。"
+
+#: app/pages/class-bulk.php:273
+msgid "By default, WordPress will only compress the generated attachments when you upload images, not the original ones. Enable this feature to compress the original images."
+msgstr "默认情况下，WordPress 只会在您上传图片时压缩生成的附件，而不是原始附件。启用此功能以压缩原始图像。"
+
+#: app/modals/updated.php:51
+msgid "Go to Settings"
+msgstr "前往设置"
+
+#. translators: %1$s: bytes savings, %2$s: percentage savings, %3$d: number of
+#. images
+#: core/media-library/class-media-library-row.php:388
+msgid "%3$d images reduced by %1$s (%2$s)"
+msgstr "%3$d 张图片减少了 %1$s (%2$s)"
+
+#: app/class-admin.php:234
+msgid "Go to Smush settings"
+msgstr "转到 Smush 设置"
+
+#: core/integrations/class-gravity-forms.php:98
+msgid "To use this feature you need be using Gravity Forms."
+msgstr "要使用此功能，您需要使用 Gravity Forms。"
+
+#: core/integrations/class-gravity-forms.php:77
+msgid "Allow compressing images uploaded with Gravity Forms."
+msgstr "允许压缩使用 Gravity Forms 上传的图片。"
+
+#: core/integrations/class-gravity-forms.php:76
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: core/integrations/class-gravity-forms.php:75
+msgid "Enable Gravity Forms integration"
+msgstr "启用 Gravity Forms 集成"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:67
+#: core/external/free-dashboard/classes/notices/class-email.php:211
+#: core/external/free-dashboard/classes/notices/class-rating.php:66
+msgid "Plugin"
+msgstr "插件"
+
+#: core/external/free-dashboard/classes/class-handler.php:265
+msgid "Nonce verification failed."
+msgstr "Nonce验证失败。"
+
+#: core/external/free-dashboard/classes/class-handler.php:254
+msgid "Access check failed."
+msgstr "访问检查失败。"
+
+#: core/external/free-dashboard/classes/class-handler.php:249
+msgid "Required fields are missing."
+msgstr "缺少必填字段。"
+
+#: app/class-ajax.php:374
+msgid "Nonce verification failed"
+msgstr "随机数验证失败"
+
+#: core/class-error-handler.php:262 core/modules/class-webp.php:587
+msgid "Webp no response was received."
+msgstr "Webp 没有收到响应。"
+
+#: core/class-error-handler.php:257
+#: core/media-library/class-media-library-row.php:113
+msgid "Skipped animated file."
+msgstr "已跳过动画文件。"
+
+#: core/class-error-handler.php:256
+msgid "Skip ignored file."
+msgstr "跳过忽略的文件。"
+
+#. translators: %s Method name
+#: core/external/wdev-logger/wdev-logger.php:406
+msgid "Method %s does not exist."
+msgstr "方法 %s 不存在。"
+
+#. translators: %s Method name
+#: core/external/wdev-logger/wdev-logger.php:393
+msgid "Module %s does not exist."
+msgstr "模块 %s 不存在。"
+
+#: core/class-configs.php:160
+msgid "Undefined"
+msgstr "不明确的"
+
+#: app/views/cdn/meta-box.php:23
+msgid "Take a load off your server by delivering your images from our blazingly-fast CDN. The Smush CDN is a multi-location network ensuring faster delivery of site content, as users will be served optimized and cached versions of files from the server closest to them."
+msgstr "通过我们速度极快的 CDN 交付您的图像，减轻您的服务器负担。 Smush CDN 是一个多位置网络，可确保更快地交付站点内容，因为用户将从最接近他们的服务器获得优化和缓存的文件版本。"
+
+#: app/views/cdn/meta-box-header.php:24
+msgid "When someone visits a page on your site, the CDN will check if images are cached on the CDN. Images that are cached will be immediately served from the server closest to the user. Any image that is not yet cached will first be sent to the Smush API for optimization, then cached so the next time it is requested, the cached version will be served."
+msgstr "当有人访问您网站上的页面时，CDN 将检查图像是否缓存在 CDN 上。缓存的图像将立即从离用户最近的服务器提供。任何尚未缓存的图像都将首先发送到 Smush API 进行优化，然后进行缓存，以便下次请求时，将提供缓存版本。"
+
+#: app/views/cdn/meta-box-header.php:22
+msgid "How Smush CDN works?"
+msgstr "Smush CDN 是如何工作的？"
+
+#: app/class-media-library.php:496
+msgid "Image not found!"
+msgstr "找不到图片！"
+
+#: core/backups/class-backups-controller.php:48
+#: core/modules/class-backup.php:399
+msgid "Image not restored, nonce verification failed."
+msgstr "图像未恢复，nonce 验证失败。"
+
+#: core/backups/class-backups-controller.php:39
+#: core/modules/class-backup.php:388
+msgid "Error in processing restore action, fields empty."
+msgstr "处理恢复操作时出错，字段为空。"
+
+#: core/class-settings.php:304
+msgid "Enable this feature to save a copy of your original images so you can restore them at any point. Note: Keeping a copy of the original images can significantly increase the size of your uploads folder."
+msgstr "启用此功能可保存原始图像的副本，以便您随时恢复它们。注意：保留原始图像的副本会显着增加上传文件夹的大小。"
+
+#: core/class-settings.php:289
+msgid "Enable this feature to disable automatic resizing of images above the threshold, keeping only your original uploaded images. Note: WordPress excludes PNG images from automatic image resizing. As a result, only uploaded JPEG images are affected by these settings."
+msgstr "启用此功能可禁用高于阈值的图像自动调整大小，仅保留您上传的原始图像。注意：WordPress 将 PNG 图像排除在自动图像大小调整之外。因此，只有上传的 JPEG 图像会受到这些设置的影响。"
+
+#: core/class-settings.php:288
+msgid "Disable Scaled Images"
+msgstr "禁用缩放图像"
+
+#: core/class-settings.php:287
+msgid "Disable scaled images"
+msgstr "禁用缩放图像"
+
+#: app/views/smush-upgrade-page.php:60
+msgid "Sites Optimized"
+msgstr "网站优化"
+
+#: app/views/smush-upgrade-page.php:56
+msgid "Images Optimized"
+msgstr "图像优化"
+
+#: app/views/smush-upgrade-page.php:55
+msgid "Billion"
+msgstr "十亿"
+
+#. translators: %s - list of plugins
+#: app/views/lazyload/meta-box.php:46
+msgid "We've detected another active plugin that offers Lazy Load: %s. Smush may not work as expected if Lazy Load is enabled in multiple plugins. For best results, activate Lazy Load in only one plugin at a time."
+msgstr "我们检测到另一个提供延迟加载的活动插件：%s。如果在多个插件中启用了延迟加载，Smush 可能无法按预期工作。为获得最佳效果，一次仅在一个插件中激活延迟加载。"
+
+#. translators: %1$s - <strong>, %2$s - </strong>
+#: app/pages/class-bulk.php:444
+msgid "%1$sCompress original images%2$s is disabled, which means that enabling %1$sBackup original images%2$s won’t yield additional benefits and will use more storage space. We recommend enabling %1$sBackup original images%2$s only if %1$sCompress original images%2$s is also enabled."
+msgstr "%1$s压缩原始图像%2$s 被禁用，这意味着启用 %1$s备份原始图像%2$s 不会产生额外的好处，并且会使用更多的存储空间。我们建议仅在 %1$s压缩原始图像%2$s 也启用时启用 %1$s备份原始图像%2$s。"
+
+#: _src/react/views/webp/steps-bar.jsx:79
+#: app/assets/js/smush-react-webp.min.js:530
+msgid "This stage is already completed."
+msgstr "这个阶段已经完成。"
+
+#: _src/react/views/webp/steps-bar.jsx:46
+#: app/assets/js/smush-react-webp.min.js:497
+msgid "Setup"
+msgstr "设置"
+
+#: _src/react/views/webp/step-footer.jsx:165
+#: app/assets/js/smush-react-webp.min.js:1260
+msgid "Finishing setup…"
+msgstr "正在完成设置…"
+
+#: _src/react/views/webp/step-footer.jsx:145
+#: app/assets/js/smush-react-webp.min.js:1240
+msgid "Check status"
+msgstr "检查状态"
+
+#: _src/react/views/webp/step-footer.jsx:75
+#: app/assets/js/smush-react-webp.min.js:1170
+msgid "Quit"
+msgstr "退出"
+
+#: _src/react/views/webp/step-footer.jsx:72
+#: app/assets/js/smush-react-webp.min.js:1167
+msgid "Quit setup"
+msgstr "退出设置"
+
+#: _src/react/views/webp/step-footer.jsx:19
+#: app/assets/js/smush-react-webp.min.js:1114
+msgid "Something went wrong with the request."
+msgstr "请求出了点问题。"
+
+#. translators: currentStep/totalSteps indicator
+#: _src/react/views/webp/step-content.jsx:420
+#: app/assets/js/smush-react-webp.min.js:986
+msgid "Step %s"
+msgstr "第 %s 步"
+
+#: _src/react/views/webp/step-content.jsx:410
+#: app/assets/js/smush-react-webp.min.js:976
+msgid "Convert now"
+msgstr "立即转换"
+
+#: _src/react/views/webp/step-content.jsx:405
+#: app/assets/js/smush-react-webp.min.js:971
+msgid "Convert Images to WebP"
+msgstr "将图像转换为 WebP"
+
+#: _src/react/views/webp/step-content.jsx:336
+#: app/assets/js/smush-react-webp.min.js:902
+msgid "Next, click Check Status button below to see if it's working."
+msgstr "接下来，单击下面的检查状态按钮以查看它是否正常工作。"
+
+#: _src/react/views/webp/step-content.jsx:233
+#: _src/react/views/webp/step-content.jsx:386
+#: app/assets/js/smush-react-webp.min.js:799
+#: app/assets/js/smush-react-webp.min.js:952
+msgid "Get Support."
+msgstr "得到支持。"
+
+#: _src/react/views/webp/step-content.jsx:227
+#: _src/react/views/webp/step-content.jsx:380
+#: app/assets/js/smush-react-webp.min.js:793
+#: app/assets/js/smush-react-webp.min.js:946
+msgid "Still having trouble?"
+msgstr "还在烦恼吗？"
+
+#: _src/react/views/webp/step-content.jsx:165
+#: app/assets/js/smush-react-webp.min.js:731
+msgid "NGINX"
+msgstr "NGINX"
+
+#: _src/react/views/webp/step-content.jsx:147
+#: app/assets/js/smush-react-webp.min.js:713
+msgid "Apache"
+msgstr "阿帕奇"
+
+#: _src/react/views/webp/step-content.jsx:106
+#: app/assets/js/smush-react-webp.min.js:672
+msgid "WebP conversion is active and working well. Your hosting has automatically pre-configured the conversion for you. The only step for you would be to create WebP images below."
+msgstr "WebP 转换是活跃的并且运行良好。您的主机已自动为您预先配置了转换。您唯一的步骤是在下面创建 WebP 图像。"
+
+#: _src/react/views/webp/step-content.jsx:102
+#: app/assets/js/smush-react-webp.min.js:668
+msgid "Since your site is hosted with WPMU DEV, we already have done the configurations steps for you. The only step for you would be to create WebP images below."
+msgstr "由于您的站点由 WPMU DEV 托管，因此我们已经为您完成了配置步骤。您唯一的步骤是在下面创建 WebP 图像。"
+
+#: _src/react/views/webp/step-content.jsx:62
+#: app/assets/js/smush-react-webp.min.js:628
+msgid "We noticed the Amazon S3 Integration is enabled. Offloaded images will not be served in WebP format, but Smush will create local WebP copies of all images. If this is undesirable, you can quit the setup."
+msgstr "我们注意到启用了 Amazon S3 集成。卸载的图像不会以 WebP 格式提供，但 Smush 将为所有图像创建本地 WebP 副本。如果这是不可取的，您可以退出设置。"
+
+#: _src/react/views/webp/step-content.jsx:44
+#: app/assets/js/smush-react-webp.min.js:610
+msgid "The rules have been applied successfully."
+msgstr "规则已成功应用。"
+
+#: _src/react/views/webp/step-content.jsx:43
+#: _src/react/views/webp/steps-bar.jsx:40
+#: app/assets/js/smush-react-webp.min.js:491
+#: app/assets/js/smush-react-webp.min.js:609
+msgid "Finish Setup"
+msgstr "完成设置"
+
+#: _src/react/views/webp/step-content.jsx:37
+#: app/assets/js/smush-react-webp.min.js:603
+msgid "The following configurations are for NGINX servers. If you do not have access to your NGINX config files you will need to contact your hosting provider to make these changes."
+msgstr "以下配置适用于 NGINX 服务器。如果您无权访问您的 NGINX 配置文件，您需要联系您的托管服务提供商进行这些更改。"
+
+#: _src/react/views/webp/step-content.jsx:30
+#: _src/react/views/webp/steps-bar.jsx:39
+#: app/assets/js/smush-react-webp.min.js:490
+#: app/assets/js/smush-react-webp.min.js:596
+msgid "Add Rules"
+msgstr "添加规则"
+
+#: _src/react/views/webp/step-content.jsx:23
+#: app/assets/js/smush-react-webp.min.js:589
+msgid "Choose Server Type"
+msgstr "选择服务器类型"
+
+#: _src/react/views/webp/free-content.jsx:56
+#: app/assets/js/smush-react-webp.min.js:1064
+msgid "Serve WebP version of images in the browsers that support it and fall back to JPEGs and PNGs for non supported browsers."
+msgstr "在支持它的浏览器中提供 WebP 版本的图像，并为不支持的浏览器回退到 JPEG 和 PNG。"
+
+#: _src/react/views/webp/free-content.jsx:46
+#: app/assets/js/smush-react-webp.min.js:1054
+msgid "Fix “Serve images in next-gen format\" Google PageSpeed recommendation."
+msgstr "修复“以下一代格式提供图像”Google PageSpeed 推荐。"
+
+#: _src/react/views/webp/free-content.jsx:36
+#: app/assets/js/smush-react-webp.min.js:1044
+msgid "Add or automatically apply the rules to enable Local WebP feature."
+msgstr "添加或自动应用规则以启用本地 WebP 功能。"
+
+#. translators: 1. opening 'b' tag, 2. closing 'b' tag
+#: app/pages/class-webp.php:65
+msgid "WebP versions of existing images in the Media Library can only be created by ‘smushing’ the originals using the %1$sBulk Smush%2$s tool on each subsite."
+msgstr "媒体库中现有图像的 WebP 版本只能通过在每个子站点上使用 %1$sBulk Smush%2$s 工具“粉碎”原件来创建。"
+
+#. translators: 1. opening 'b' tag, 2. closing 'b' tag
+#: app/pages/class-webp.php:56
+msgid "WebP versions of existing images in the Media Library can only be created by ‘smushing’ the originals via the Bulk Smush page. Click %1$sConvert Now%2$s to be redirected to the Bulk Smush page to start smushing your images."
+msgstr "媒体库中现有图像的 WebP 版本只能通过批量粉碎页面“粉碎”原件来创建。单击 %1$sConvert Now%2$s 以重定向到 Bulk Smush 页面以开始 smushing 您的图像。"
+
+#. translators: 1. opening 'a' tag with the support link, 2. closing 'a' tag
+#: app/modals/progress-dialog.php:89
+msgid "Please contact our %1$ssupport%2$s team if the issue persists."
+msgstr "如果问题仍然存在，请联系我们的 %1$ssupport%2$s 团队。"
+
+#: app/modals/progress-dialog.php:83
+msgid "This blockage may be caused by an active plugin, firewall, or file permission setting. Disable or reconfigure the blocker before trying again."
+msgstr "此阻塞可能是由活动插件、防火墙或文件权限设置引起的。在重试之前禁用或重新配置阻止程序。"
+
+#. translators: error message placeholder
+#: app/modals/progress-dialog.php:78
+msgid "Smush has encountered a %s error while attempting to compress the selected images."
+msgstr "Smush 在尝试压缩所选图像时遇到 %s 错误。"
+
+#: app/class-ajax.php:732
+msgid "Either the nonce expired or you can't modify options. Please reload the page and try again."
+msgstr "随机数已过期，或者您无法修改选项。请刷新页面，然后再试一次。"
+
+#. translators: %s {pluginName}
+#: _src/react/modules/configs.jsx:82
+#: app/assets/js/smush-react-configs.min.js:6517
+msgid "The uploaded file is not a %s Config. Please make sure the uploaded file is correct."
+msgstr "上传的文件不是 %s 配置。请确保上传的文件正确无误。"
+
+#: app/views/lazyload/meta-box.php:82
+msgid ".webp"
+msgstr ".webp"
+
+#: app/views/cdn/upsell-meta-box.php:33
+msgid "WebP conversion with CDN"
+msgstr "使用CDN进行WebP转换"
+
+#: app/views/cdn/upsell-meta-box.php:29
+msgid "Fix Google PageSpeeds ‘properly size images’ suggestion"
+msgstr "修复谷歌PageSpeeds \"适当大小的图像 \"建议"
+
+#: app/pages/class-cdn.php:124
+msgid "Your Staging environment’s media is currently being served from your local server. If you move your Staging files into Production, your Production environment’s media will automatically be served from the Smush CDN."
+msgstr "您的暂存环境的媒体目前是由您的本地服务器提供的。如果您将您的暂存文件转移到生产环境，您的生产环境的媒体将自动从Smush CDN提供。"
+
+#. translators: %s - icon
+#: app/common/footer-links.php:14
+msgid "Made with %s by WPMU DEV"
+msgstr "由 WPMU DEV 使用 %s 制作"
+
+#. translators: %s. config name
+#: _src/react/modules/configs.jsx:140
+#: app/assets/js/smush-react-configs.min.js:6575
+msgid "%s config created successfully."
+msgstr "%s配置创建成功。"
+
+#: _src/react/modules/configs.jsx:134
+#: app/assets/js/smush-react-configs.min.js:6569
+msgid "Save your current settings configuration. You’ll be able to then download and apply it to your other sites."
+msgstr "保存当前配置。您将能够下载并将其应用于您的其他网站。"
+
+#: _src/react/modules/configs.jsx:133
+#: app/assets/js/smush-react-configs.min.js:6568
+msgid "Save Config"
+msgstr "保存配置"
+
+#: _src/react/modules/configs.jsx:129
+#: app/assets/js/smush-react-configs.min.js:6564
+msgid "Change your config name to something recognizable."
+msgstr "更改您的配置名称以便于识别"
+
+#: _src/react/modules/configs.jsx:128
+#: app/assets/js/smush-react-configs.min.js:6563
+msgid "Rename Config"
+msgstr "重命名配置"
+
+#: _src/react/modules/configs.jsx:127
+#: app/assets/js/smush-react-configs.min.js:6562
+msgid "Save"
+msgstr "保存"
+
+#: _src/react/modules/configs.jsx:126
+#: app/assets/js/smush-react-configs.min.js:6561
+msgid "The config name is required"
+msgstr "配置名称是必须填写的。"
+
+#: _src/react/modules/configs.jsx:125
+#: app/assets/js/smush-react-configs.min.js:6560
+msgid "Description"
+msgstr "描述"
+
+#: _src/react/modules/configs.jsx:124
+#: app/assets/js/smush-react-configs.min.js:6559
+msgid "Config name"
+msgstr "配置名称"
+
+#. translators: %s config name
+#: _src/react/modules/configs.jsx:113
+#: app/assets/js/smush-react-configs.min.js:6548
+msgid "Are you sure you want to delete %s? You will no longer be able to apply it to this or other connected sites."
+msgstr "您确定要删除 %s 吗？ 您将无法再将其应用于这个或者关联的网站。"
+
+#: _src/react/modules/configs.jsx:110
+#: app/assets/js/smush-react-configs.min.js:6545
+msgid "Delete Configuration File"
+msgstr "删除配置文件"
+
+#. translators: %s. config name
+#: _src/react/modules/configs.jsx:103
+#: app/assets/js/smush-react-configs.min.js:6538
+msgid "%s config has been applied successfully."
+msgstr "%s 配置已成功应用。"
+
+#. translators: %s config name
+#: _src/react/modules/configs.jsx:94
+#: app/assets/js/smush-react-configs.min.js:6529
+msgid "Are you sure you want to apply the %s config to this site? We recommend you have a backup available as your existing settings configuration will be overridden."
+msgstr "您确定要将 %s 配置应用于本网站吗？ 我们建议您先进行备份，因为您的现有的配置将被覆盖。"
+
+#: _src/react/modules/configs.jsx:91
+#: app/assets/js/smush-react-configs.min.js:6526
+msgid "Apply Config"
+msgstr "应用配置"
+
+#. translators: %s request status
+#: _src/react/modules/configs.jsx:74
+#: app/assets/js/smush-react-configs.min.js:6509
+msgid "%s config has been uploaded successfully – you can now apply it to this site."
+msgstr "%s 配置已成功上传 - 您现在可以将其应用于此站点。"
+
+#. translators: %s request status
+#: _src/react/modules/configs.jsx:66
+#: app/assets/js/smush-react-configs.min.js:6501
+msgid "Request failed. Status: %s. Please reload the page and try again."
+msgstr "请求失败。状态：%s。请重新加载页面并再次尝试。"
+
+#: _src/react/modules/configs.jsx:63
+#: app/assets/js/smush-react-configs.min.js:6498
+msgid "Try The Hub"
+msgstr "试试集线器"
+
+#: _src/react/modules/configs.jsx:60
+#: app/assets/js/smush-react-configs.min.js:6495
+msgid "Name and Description"
+msgstr "名称和描述"
+
+#: _src/react/modules/configs.jsx:59
+#: app/assets/js/smush-react-configs.min.js:6494
+msgid "Download"
+msgstr "下载"
+
+#: _src/react/modules/configs.jsx:58 _src/react/modules/configs.jsx:100
+#: app/assets/js/smush-react-configs.min.js:6493
+#: app/assets/js/smush-react-configs.min.js:6535
+msgid "Apply"
+msgstr "申请"
+
+#: _src/react/modules/configs.jsx:57
+#: app/assets/js/smush-react-configs.min.js:6492
+msgid "Check again"
+msgstr "再次检查"
+
+#: _src/react/modules/configs.jsx:53
+#: app/assets/js/smush-react-configs.min.js:6488
+msgid "Created or updated configs via the Hub?"
+msgstr "通过 Hub 创建或更新配置？"
+
+#: _src/react/modules/configs.jsx:48
+#: app/assets/js/smush-react-configs.min.js:6483
+msgid "Use configs to save preset configurations of Smush’s settings, then upload and apply them to your other sites in just a few clicks!"
+msgstr "使用configs来保存Smush的预设配置，然后只需点击几下就可以上传并应用到您的其他网站上!"
+
+#: _src/react/modules/configs.jsx:44
+#: app/assets/js/smush-react-configs.min.js:6479
+msgid "You don’t have any available config. Save preset configurations of Smush’s settings, then upload and apply them to your other sites in just a few clicks!"
+msgstr "你没有任何可用的配置。保存Smush的预设配置，然后上传并应用于您的其他网站，只需点击几下就可以了！"
+
+#: _src/react/modules/configs.jsx:43
+#: app/assets/js/smush-react-configs.min.js:6478
+msgid "Updating the config list…"
+msgstr "更新配置列表..."
+
+#: _src/react/modules/configs.jsx:42
+#: app/assets/js/smush-react-configs.min.js:6477
+msgid "Save config"
+msgstr "保存配置"
+
+#: _src/react/modules/configs.jsx:41
+#: app/assets/js/smush-react-configs.min.js:6476
+msgid "Upload"
+msgstr "上传"
+
+#: _src/react/modules/configs.jsx:40
+#: app/assets/js/smush-react-configs.min.js:6475
+msgid "Preset Configs"
+msgstr "预设配置"
+
+#: _src/react/modules/configs.jsx:31
+#: app/assets/js/smush-react-configs.min.js:6466
+msgid "the Hub."
+msgstr "集线器。"
+
+#: _src/react/modules/configs.jsx:22
+#: app/assets/js/smush-react-configs.min.js:6457
+msgid "You can easily apply configs to multiple sites at once via "
+msgstr "您可以通过以下方式轻松地将配置一次应用于多个站点"
+
+#. translators: path that couldn't be written
+#: core/modules/class-webp.php:153
+msgid "We couldn't create the WebP test files. This is probably due to your current folder permissions. Please adjust the permissions for \"%s\" to 755 and try again."
+msgstr "我们无法创建WebP测试文件。这可能是由于你当前的文件夹权限问题。请将\"%s \"的权限调整为755，然后再试一次。"
+
+#: core/class-settings.php:756
+msgid "The tab these settings belong to is missing."
+msgstr "缺少这些设置所属的选项卡。"
+
+#: core/class-settings.php:706
+msgid "The page these settings belong to is missing."
+msgstr "缺少这些设置所属的页面。"
+
+#: core/class-settings.php:317
+msgid "Allow usage tracking"
+msgstr "允许使用情况跟踪"
+
+#: core/class-core.php:274
+msgid "Your settings have been updated"
+msgstr "您的设置已更新"
+
+#: core/class-configs.php:707
+msgid "none"
+msgstr "没有任何"
+
+#: core/class-configs.php:696
+msgid "No"
+msgstr "不"
+
+#: core/class-configs.php:696
+msgid "Yes"
+msgstr "是的"
+
+#: core/class-configs.php:692
+msgid ". Fade in delay: "
+msgstr ".淡入延迟："
+
+#: core/class-configs.php:691
+msgid ". Fade in duration: "
+msgstr ".淡入持续时间："
+
+#: core/class-configs.php:689
+msgid "Selected: "
+msgstr "已选择："
+
+#: core/class-configs.php:675
+msgid "Native Lazy Load Enabled"
+msgstr "已启用本机延迟加载"
+
+#: core/class-configs.php:674
+msgid "Load Scripts In Footer"
+msgstr "在页脚中加载脚本"
+
+#: core/class-configs.php:673
+msgid "Display And Animation"
+msgstr "显示和动画"
+
+#: core/class-configs.php:672
+msgid "Included Post Types"
+msgstr "包含的帖子类型"
+
+#: core/class-configs.php:615
+msgid "Keep Data On Uninstall"
+msgstr "卸载时保留数据"
+
+#. translators: 1. Resize-size max width, 2. Resize-size max height
+#: core/class-configs.php:566
+msgid "Full images max-sizes to resize - Max-width: %1$s. Max height: %2$s"
+msgstr "要调整大小的完整图像最大尺寸 - 最大宽度：%1$s。最大高度：%2$s"
+
+#: core/class-configs.php:279
+msgid "The given config ID does not exist"
+msgstr "给定的配置 ID 不存在"
+
+#: core/class-configs.php:243
+msgid "The provided configs list isn’t correct. Please make sure the uploaded file is the correct one."
+msgstr "提供的配置列表不正确。请确保上传的文件是正确的。"
+
+#: core/class-configs.php:228
+msgid "The uploaded config must have a name and a set of settings. Please make sure the uploaded file is the correct one."
+msgstr "上传的配置必须有一个名称和一组设置。请确保上传的文件是正确的。"
+
+#: core/class-configs.php:223
+msgid "There was an error decoding the file."
+msgstr "对文件进行解码时出现了错误。"
+
+#: core/class-configs.php:218
+msgid "There was an error getting the contents of the file."
+msgstr "获取文件内容时出错。"
+
+#: core/class-configs.php:213
+msgid "The file must be a JSON."
+msgstr "该文件必须是 JSON。"
+
+#. translators: error message
+#: core/class-configs.php:211
+msgid "Error: %s."
+msgstr "错误：%s。"
+
+#: core/class-configs.php:208
+msgid "The configs file is required"
+msgstr "配置文件是必需的"
+
+#: core/class-configs.php:100
+msgid "Recommended performance config for every site."
+msgstr "每个站点的推荐性能配置。"
+
+#: core/class-configs.php:70
+msgid "Missing configs data"
+msgstr "缺少配置数据"
+
+#: core/api/class-hub.php:139
+msgid "Missing config data"
+msgstr "缺少配置数据"
+
+#: core/api/class-abstract-api.php:55
+msgid "API instances require a version and name properties"
+msgstr "API 实例需要版本和名称属性"
+
+#: _src/react/views/webp/step-content.jsx:273
+#: app/assets/js/smush-react-webp.min.js:839
+msgid "Manual"
+msgstr "手动的"
+
+#: _src/react/views/webp/step-content.jsx:257
+#: app/assets/js/smush-react-webp.min.js:823
+msgid "Automatic"
+msgstr "自动的"
+
+#: app/views/settings/general-meta-box.php:22
+msgid "Configure general settings for this plugin."
+msgstr "配置此插件的常规设置。"
+
+#: app/views/settings/data-meta-box.php:19
+msgid "Control what to do with your settings and data. Settings are each module’s configuration options. Data includes the compression savings, statistics and other pieces of information stored over time."
+msgstr "控制如何处理您的设置和数据。设置是每个模块的配置选项。数据包括随时间存储的压缩节省、统计数据和其他信息。"
+
+#: app/views/settings/accessibility-meta-box.php:19
+msgid "Enable support for any accessibility enhancements available in the plugin interface."
+msgstr "启用对插件界面中可用的任何可访问性增强的支持。"
+
+#: app/views/dashboard/webp/meta-box.php:20
+msgid "Serve WebP versions of your images to supported browsers, and gracefully fall back on JPEGs and PNGs for browsers that don't support WebP."
+msgstr "将 WebP 版本的图像提供给支持的浏览器，并优雅地为不支持 WebP 的浏览器使用 JPEG 和 PNG。"
+
+#: core/class-settings.php:297
+msgid "Compress original images"
+msgstr "压缩原始图像"
+
+#: app/views/dashboard/tools-meta-box.php:49
+msgid "View Tools"
+msgstr "查看工具"
+
+#: app/views/dashboard/tools-meta-box.php:25
+msgid "Available Tools"
+msgstr "可用工具"
+
+#: app/views/dashboard/tools-meta-box.php:18
+msgid "Use Tools for extra configurations."
+msgstr "使用工具进行额外配置。"
+
+#: app/views/dashboard/summary-meta-box.php:115
+msgid "Incomplete setup"
+msgstr "设置不完整"
+
+#: app/views/dashboard/summary-meta-box.php:112
+msgid "The setup for Local WebP feature is inactive. Complete the setup, to activate the feature."
+msgstr "本地 WebP 功能的设置处于非活动状态。完成设置，以激活该功能。"
+
+#: app/views/dashboard/summary-meta-box.php:104
+msgid "Fix the “Serve images in next-gen format” Google PageSpeed recommendation by setting up this feature. Locally serve WebP versions of your images to supported browsers, and gracefully fall back to JPEGs and PNGs for browsers that don’t support WebP."
+msgstr "通过设置此功能修复“以下一代格式提供图像”Google PageSpeed 推荐。将图像的 WebP 版本本地提供给支持的浏览器，并为不支持 WebP 的浏览器优雅地回退到 JPEG 和 PNG。"
+
+#: app/views/dashboard/lazy-load-meta-box.php:38
+msgid "Active Media Types"
+msgstr "活动媒体类型"
+
+#: app/views/dashboard/integrations-meta-box.php:63
+msgid "Smush Pro supports hosting images on Amazon S3 and optimizing NextGen Gallery images directly through NextGen Gallery settings."
+msgstr "Smush Pro 支持在 Amazon S3 上托管图像并直接通过 NextGen Gallery 设置优化 NextGen Gallery 图像。"
+
+#: app/views/dashboard/integrations-meta-box.php:31
+msgid "Available Integrations"
+msgstr "可用的集成"
+
+#: app/views/dashboard/integrations-meta-box.php:24
+msgid "Integrate with powerful third-party providers and make compression even easier."
+msgstr "与强大的第三方提供商集成，让压缩变得更加容易。"
+
+#. translators: %d - number of failed images
+#: app/views/dashboard/directory-meta-box.php:32
+msgid "%d images failed to be optimized. This is usually because they no longer exist, or we can't optimize the file format."
+msgstr "%d 个图像未能优化。这通常是因为它们不再存在，或者我们无法优化文件格式。"
+
+#: app/views/dashboard/cdn/meta-box.php:88
+#: app/views/dashboard/cdn/meta-box.php:98
+#: app/views/dashboard/integrations-meta-box.php:77
+#: app/views/dashboard/lazy-load-meta-box.php:55
+#: app/views/dashboard/webp/meta-box.php:54
+#: app/views/webp/webp-meta-box.php:107
+msgid "Configure"
+msgstr "配置"
+
+#: app/views/dashboard/cdn/meta-box.php:82
+#: app/views/dashboard/integrations-meta-box.php:53
+#: app/views/dashboard/summary-meta-box.php:89
+#: app/views/dashboard/summary-meta-box.php:118
+#: app/views/dashboard/summary-meta-box.php:135
+#: app/views/dashboard/tools-meta-box.php:39 core/class-configs.php:653
+msgid "Inactive"
+msgstr "不活跃"
+
+#: app/views/dashboard/cdn/meta-box.php:48
+#: app/views/dashboard/summary-meta-box.php:73
+msgid "You're almost through your CDN bandwidth limit. Please contact your administrator to upgrade your Smush CDN plan to ensure you don't lose this service."
+msgstr "您几乎已通过 CDN 带宽限制。请联系您的管理员升级您的 Smush CDN 计划，以确保您不会失去此服务。"
+
+#: app/views/dashboard/cdn/meta-box.php:39
+#: app/views/dashboard/summary-meta-box.php:78
+msgid "You've gone through your CDN bandwidth limit, so we’ve stopped serving your images via the CDN. Contact your administrator to upgrade your Smush CDN plan to reactivate this service."
+msgstr "您已超出 CDN 带宽限制，因此我们已停止通过 CDN 提供您的图片。请联系您的管理员升级您的 Smush CDN 计划以重新激活此服务。"
+
+#: app/views/dashboard/cdn/meta-box.php:25
+#: app/views/dashboard/webp/meta-box.php:25
+msgid "Upgrade to Pro"
+msgstr "升级到专业版"
+
+#. translators: %1$s - opening <a> tag, %2$s - closing </a> tag, %3$s - number
+#. of images
+#: app/views/dashboard/bulk/exists-uncompressed.php:41
+msgid "%1$sUpgrade to Pro%2$s to bulk smush all images in one click. Free users can smush %3$s images per batch."
+msgstr "%1$s升级到专业版%2$s，一键批量删除所有图片。免费用户可以每批 smush %3$s 图像。"
+
+#. translators: %d - number of uncompressed attachments
+#: app/views/dashboard/bulk/exists-uncompressed.php:22
+msgid "You have %d images that needs compressing!"
+msgstr "您有 %d 张图片需要压缩！"
+
+#: app/pages/class-settings.php:34 app/pages/class-settings.php:94
+msgid "Accessibility"
+msgstr "可访问性"
+
+#: app/pages/class-settings.php:33 app/pages/class-settings.php:85
+msgid "Data & Settings"
+msgstr "数据和设置"
+
+#: app/pages/class-settings.php:32 app/pages/class-settings.php:75
+msgid "Permissions"
+msgstr "权限"
+
+#: app/pages/class-settings.php:31
+msgid "Configs"
+msgstr "配置"
+
+#: app/pages/class-settings.php:30 app/pages/class-settings.php:65
+msgid "General"
+msgstr "一般的"
+
+#: app/class-ajax.php:945
+msgid "Missing config ID"
+msgstr "缺少配置 ID"
+
+#: app/class-abstract-page.php:915
+msgid "min read"
+msgstr "最小阅读"
+
+#: app/class-abstract-page.php:914
+msgid "Loading tutorials..."
+msgstr "正在加载教程..."
+
+#: core/modules/class-cdn.php:247
+msgid "Smush can automatically convert and serve your images as WebP from the WPMU DEV CDN to compatible browsers."
+msgstr "Smush 可以从WPMU Dev CDN到兼容浏览器的WEPP自动转换和提供您的图像。"
+
+#. translators: 1. opening 'a' tag to docs, 2. opening 'a' tag to premium
+#. support, 3. closing 'a' tag.
+#: core/modules/class-webp.php:874
+msgid "We tried different rules but your server still isn't serving WebP images. Please contact your hosting provider for further assistance. You can also see our %1$stroubleshooting guide%3$s or %2$scontact support%3$s for help."
+msgstr "我们尝试了不同的规则，但您的服务器仍然不适用于WebP图像。请联系您的托管提供商以获取进一步的帮助。您还可以查看我们的 %1$s故障排除指南%3$s或%2$s 联系支持 %3$s寻求帮助。"
+
+#: app/views/tabs.php:29
+msgid "Navigate"
+msgstr "导航"
+
+#: app/views/webp/disabled-meta-box.php:22
+msgid "Fix the \"Serve images in next-gen format\" Google PageSpeed recommendation by setting up this feature. Locally serve WebP versions of your images to supported browsers, and gracefully fall back on JPEGs and PNGs for browsers that don't support WebP."
+msgstr "通过设置此功能来修复Google PageSpeed推荐的“在下一代格式中提供的图像”。本地服务于您的图像的WIPP版本，以支持浏览器，并优雅地回到JPEGS和PNG的浏览器上，以获取不支持WebP的浏览器。"
+
+#: _src/react/views/webp/step-content.jsx:321
+#: app/assets/js/smush-react-webp.min.js:887
+msgid "Copy the generated code below and paste it at the top of your .htaccess file (before any existing code) in the root directory."
+msgstr "复制下面生成的代码并将其粘贴到根目录中 .htaccess 文件的顶部（在任何现有代码之前）。"
+
+#: _src/react/views/webp/step-content.jsx:312
+#: app/assets/js/smush-react-webp.min.js:878
+msgid "If you are unable to get the automated method working, follow these steps:"
+msgstr "如果您无法使自动化方法正常工作，请按照以下步骤操作："
+
+#: app/class-admin.php:306 app/pages/class-dashboard.php:143
+#: app/pages/class-dashboard.php:299 app/pages/class-webp.php:120
+#: app/pages/class-webp.php:130 app/views/dashboard/summary-meta-box.php:97
+#: app/views/webp/meta-box-header.php:18 _src/react/modules/configs.jsx:149
+#: _src/react/views/webp/steps-bar.jsx:49
+#: app/assets/js/smush-react-configs.min.js:6584
+#: app/assets/js/smush-react-webp.min.js:500
+msgid "Local WebP"
+msgstr "本地 WebP"
+
+#. translators: 1. opening 'a' tag to docs, 2. closing 'a' tag.
+#: app/views/webp/webp-meta-box.php:137
+msgid "To verify if the JPG and PNG images are being served correctly as WebP files, please refer to our %1$sDocumentation%2$s."
+msgstr "要验证JPG和PNG图像是否正确作为WebP文件提供，请参考我们的%1$s文档%2$s。"
+
+#: core/modules/class-webp.php:114
+msgid "The server rules have been applied but the server doesn't seem to be serving your images as WebP. We recommend contacting your hosting provider to learn more about the cause of this issue."
+msgstr "服务器规则已应用，但服务器似乎没有将图像用作WebP。我们建议您与托管服务提供商联系，以了解有关此问题的更多原因。"
+
+#. translators: 1. error code, 2. error message.
+#: core/modules/class-webp.php:192
+msgid "We couldn't check the WebP server rules status because there was an error with the test request. Please contact support for assistance. Code %1$s: %2$s."
+msgstr "我们无法检查WebP服务器规则状态，因为测试请求存在错误。请联系支持以获取帮助。代码 %1$s: %2$s."
+
+#. translators: 1. opening 'b' tag, 2. closing 'b' tag, 3. opening 'a' tag, 4.
+#. closing 'a' tag
+#: app/views/webp/webp-meta-box.php:48
+msgid "%1$sNote:%2$s You need to use the %3$sBulk Smush%4$s tool to convert all your images as WebP format. "
+msgstr "%1$s注意：%2$s您需要使用 %3$s批量压缩%4$s 工具将所有图像转换为WebP格式。"
+
+#: app/views/webp/webp-meta-box.php:39
+msgid " Your hosting provider has preconfigured the conversion for you."
+msgstr "您的托管服务提供商已为您预先配置了转换。"
+
+#: app/views/webp/webp-meta-box.php:37
+msgid " Since your site is hosted with WPMU DEV, we've automatically preconfigured the conversion for you."
+msgstr "由于您的网站托管于WPMU DEV，因此我们已自动为您预配置了转换。"
+
+#: core/modules/class-webp.php:957
+msgid "We were unable to automatically remove the rules. We recommend trying to remove the rules manually. If you don’t have access to the .htaccess file to remove it manually, please consult with your hosting provider to change the configuration on the server."
+msgstr "我们无法自动删除规则。我们建议尝试手动删除规则。如果您无法访问.htaccess文件以手动将其删除，请咨询您的主机提供商以更改服务器上的配置。"
+
+#: core/modules/class-webp.php:943
+msgid "The .htaccess file doesn't contain the WebP rules from Smush."
+msgstr ".htaccess文件不包含来自Smush的WebP规则。"
+
+#. translators: 1. opening 'a' tag to premium support, 2. closing 'a' tag.
+#: core/modules/class-webp.php:867
+msgid "We tried to apply the .htaccess rules automatically but we were unable to complete this action. Make sure the file permissions on your .htaccess file are set to 644, or switch to manual mode and apply the rules yourself. If you need further assistance, you can %1$scontact support%2$s for help."
+msgstr "我们尝试自动应用.htaccess规则，但无法完成此操作。确保.htaccess文件的文件权限设置为644，或者切换到手动模式并自行应用规则。如果您需要进一步的帮助，您可以%1$s联系支持%2$s以获得帮助。"
+
+#: app/views/webp/webp-meta-box.php:65
+msgid "Newly uploaded images will be automatically converted to WebP format."
+msgstr "新上传的图像将自动转换为WebP格式。"
+
+#. translators: %1$s - opening link tag, %2$s - </a>
+#: app/views/webp/webp-meta-box.php:59
+msgid "You can also enable %3$sAutomatic Compression%2$s to convert newly uploaded image files automatically going forward."
+msgstr "您还可以启用%3$s自动压缩%2$s自动转换新上传的图像文件。"
+
+#: core/modules/class-webp.php:732
+msgid "WebP files were deleted successfully."
+msgstr "已成功删除WebP文件。"
+
+#: core/class-core.php:302
+msgid "Something went wrong with the request. Please reload the page and try again."
+msgstr "请求出现问题。请重新加载页面，然后重试。"
+
+#: app/views/webp/webp-meta-box.php:186
+msgid "If you no longer require your images to be served in WebP format, you can disable this feature."
+msgstr "如果您不再需要以WebP格式提供图像，您可以禁用此功能。"
+
+#: app/views/webp/webp-meta-box.php:123
+msgid "Here's a list of the media types that will be converted to WebP format."
+msgstr "以下是将转换为WebP格式的媒体类型列表。"
+
+#: core/modules/class-webp.php:117
+msgid "Server configurations haven't been applied yet. Make configurations to start serving images in WebP format."
+msgstr "服务器配置尚未应用。进行配置以开始以 WebP 格式提供图像。"
+
+#. translators: 1. opening 'b' tag, 2. closing 'b' tag
+#: app/views/webp/webp-meta-box.php:75 app/views/webp/webp-meta-box.php:97
+msgid "%1$sNote:%2$s We noticed the Amazon S3 Integration is enabled. Offloaded images will not be served in WebP format, but Smush will still create local WebP copies of all images. If this is undesirable, please deactivate the WebP module below."
+msgstr "%1$s注意：%2$s我们注意到已启用Amazon S3集成。卸载的图像将不会以WebP格式提供，但Smush仍将创建所有图像的本地WebP副本。如果不希望这样做，请禁用下面的WebP模块。"
+
+#: app/views/dashboard/webp/meta-box.php:38 app/views/webp/webp-meta-box.php:33
+msgid "WebP conversion is active and working well."
+msgstr "WebP转换处于活动状态，并且运行良好。"
+
+#: app/views/webp/webp-meta-box.php:19
+msgid "Locally serve WebP versions of your images to supported browsers, and gracefully fall back on JPEGs and PNGs for browsers that don't support WebP."
+msgstr "本地为支持WebP的浏览器提供图像的WebP版本，而对于不支持WebP的浏览器，则可以优雅地使用JPEG和PNG。"
+
+#: app/views/webp/meta-box-header.php:23
+msgid "Join WPMU DEV to use this feature"
+msgstr "加入WPMU DEV使用此功能"
+
+#: _src/react/views/webp/free-content.jsx:24
+#: app/assets/js/smush-react-webp.min.js:1032
+msgid "Fix the \"Serve images in next-gen format\" Google PageSpeed recommendation by setting up this feature. Serve WebP versions of your images to supported browsers, and gracefully fall back on JPEGs and PNGs for browsers that don't support WebP."
+msgstr "通过设置此功能，修正“以下一代格式提供图像” Google PageSpeed 建议。将图像的WebP版本提供给受支持的浏览器，对于不支持WebP的浏览器，可以适当地使用JPEG和PNG。"
+
+#: app/views/webp/disabled-meta-box.php:18
+#: _src/react/views/webp/free-content.jsx:19
+#: app/assets/js/smush-react-webp.min.js:1027
+msgid "Smush WebP"
+msgstr "压缩 WebP"
+
+#: app/views/webp/webp-meta-box.php:200
+msgid "Deactivation won’t delete existing WebP images."
+msgstr "停用将不会删除现有的WebP图像。"
+
+#: app/views/webp/webp-meta-box.php:173
+msgid "This feature won’t delete the WebP files converted via CDN, only the files generated via the local WebP feature."
+msgstr "此功能不会删除通过CDN转换的WebP文件，而只会删除通过本地WebP功能生成的文件。"
+
+#: app/views/webp/webp-meta-box.php:166
+msgid "Delete WebP Files"
+msgstr "删除WebP文件"
+
+#: app/views/webp/webp-meta-box.php:152
+msgid "If your server storage space is full, use this feature to revert the WebP conversions by deleting all generated files. The files will fall back to normal PNGs or JPEGs once you delete them."
+msgstr "如果您的服务器存储空间已满，请使用此功能通过删除所有生成的文件来恢复WebP转换。一旦您删除这些文件，文件将恢复到正常的PNG或JPEG文件。"
+
+#: app/views/webp/webp-meta-box.php:149
+msgid "Revert WebP Conversion"
+msgstr "还原WebP转换"
+
+#: _src/react/views/webp/step-content.jsx:223
+#: app/assets/js/smush-react-webp.min.js:789
+msgid "Reload NGINX."
+msgstr "重新加载NGINX。"
+
+#: _src/react/views/webp/step-content.jsx:209
+#: app/assets/js/smush-react-webp.min.js:775
+msgid "Copy the generated code found below and paste it inside your http or server blocks."
+msgstr "复制下面找到的生成代码并将其粘贴到您的 http 或 server 块中。"
+
+#: _src/react/views/webp/step-content.jsx:203
+#: app/assets/js/smush-react-webp.min.js:769
+msgid "Insert the following in the server context of your configuration file (usually found in /etc/nginx/sites-available). “The server context” refers to the part of the configuration that starts with “server {” and ends with the matching “}”."
+msgstr "在配置文件的服务器上下文中插入以下内容（通常在 /etc/nginx/sites-available 中找到）。 “服务器上下文”是指配置中以“server {”开头并以匹配的“}”结尾的部分。"
+
+#: _src/react/views/webp/step-content.jsx:372
+#: app/assets/js/smush-react-webp.min.js:938
+msgid "If you don't know where those files are, or you aren't able to reload Apache, you would need to consult with your hosting provider or a system administrator who has access to change the configuration of your server."
+msgstr "如果您不知道这些文件在哪里，或者您无法重新加载Apache，您需要咨询主机提供商或有权更改服务器配置的系统管理员。"
+
+#: _src/react/views/webp/step-content.jsx:369
+#: app/assets/js/smush-react-webp.min.js:935
+msgid "Reload Apache."
+msgstr "重新加载Apache。"
+
+#: _src/react/views/webp/step-content.jsx:363
+#: app/assets/js/smush-react-webp.min.js:929
+msgid "Look for your site in the file and find the line that starts with <Directory> - add the code above that line and into that section and save the file."
+msgstr "在文件中查找您的站点，然后找到以<Directory>开头的行-将代码添加到该行上方并添加到该部分中，然后保存文件。"
+
+#: _src/react/views/webp/step-content.jsx:355
+#: app/assets/js/smush-react-webp.min.js:921
+msgid "If .htaccess does not work, and you have access to vhosts.conf or httpd.conf, try this:"
+msgstr "如果 .htaccess 不起作用，并且您可以访问 vhosts.conf 或 httpd.conf，请尝试以下操作："
+
+#: _src/react/views/webp/step-content.jsx:351
+#: app/assets/js/smush-react-webp.min.js:917
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+#: _src/react/views/webp/step-footer.jsx:134
+#: app/assets/js/smush-react-webp.min.js:1229
+msgid "Apply rules"
+msgstr "应用规则"
+
+#: _src/react/views/webp/step-content.jsx:293
+#: app/assets/js/smush-react-webp.min.js:859
+msgid "Please note: Some servers have both Apache and NGINX software which may not begin serving WebP images after applying the .htaccess rules. If errors occur after applying the rules, we recommend adding NGINX rules manually."
+msgstr "请注意：某些服务器同时安装了Apache和Nginx软件，在应用.htaccess规则后可能无法开始提供WebP图像。如果应用规则后出现错误，我们建议您手动添加Nginx规则。"
+
+#: _src/react/views/webp/step-content.jsx:33
+#: app/assets/js/smush-react-webp.min.js:599
+msgid "Smush can automatically apply WebP conversion rules for Apache servers by writing to your .htaccess file. Alternatively, switch to Manual to apply these rules yourself."
+msgstr "Smush 可以通过写入您的 .htaccess 文件来自动为 Apache 服务器应用 WebP 转换规则。或者，切换到手动以自行应用这些规则。"
+
+#. translators: server type
+#: _src/react/views/webp/step-content.jsx:181
+#: app/assets/js/smush-react-webp.min.js:747
+msgid "We've automatically detected your server type is %s. If this is incorrect, manually select your server type to generate the relevant rules and instructions."
+msgstr "我们已自动检测到您的服务器类型为%s。如果不正确，请手动选择您的服务器类型以生成相关规则和说明。"
+
+#: _src/react/views/webp/step-content.jsx:24
+#: app/assets/js/smush-react-webp.min.js:590
+msgid "Choose your server type. If you don’t know this, please contact your hosting provider."
+msgstr "选择您的服务器类型。如果您不知道这一点，请联系您的托管服务提供商。"
+
+#: _src/react/views/webp/steps-bar.jsx:38
+#: app/assets/js/smush-react-webp.min.js:489
+msgid "Server Type"
+msgstr "服务器类型"
+
+#: app/views/webp/meta-box-header.php:33
+msgid "Re-check status"
+msgstr "重新检查状态"
+
+#: app/views/webp/meta-box-header.php:31
+msgid "Made changes?"
+msgstr "进行了更改？"
+
+#: app/modals/webp-delete-all.php:38
+msgid "Are you sure you want to delete all WebP files?"
+msgstr "您确定要删除所有WebP文件吗？"
+
+#: app/modals/webp-delete-all.php:33
+msgid "Delete WebP files"
+msgstr "删除WebP文件"
+
+#: app/class-ajax.php:779
+msgid "This user can not delete all WebP images."
+msgstr "该用户不能删除所有WebP图像。"
+
+#: app/class-ajax.php:451 app/class-ajax.php:533 app/class-ajax.php:709
+#: core/class-settings.php:692 core/integrations/class-nextgen.php:553
+#: core/integrations/class-nextgen.php:676
+#: core/integrations/nextgen/class-admin.php:542
+#: core/media/class-media-item-controller.php:80
+msgid "You don't have permission to do this."
+msgstr "您无权执行此操作。"
+
+#: _src/react/common/modal.js:77 _src/react/modules/configs.jsx:36
+#: app/assets/js/smush-library-scanner.min.js:752
+#: app/assets/js/smush-react-configs.min.js:6471
+msgid "Close this dialog window"
+msgstr "关闭此对话框窗口"
+
+#: app/views/dashboard/upsell/meta-box.php:30
+msgid "Fix Google PageSpeed image recommendations"
+msgstr "修正Google PageSpeed图片建议"
+
+#: app/class-admin.php:549
+msgid " and "
+msgstr " 和 "
+
+#. translators: 1. opening strong tag, 2: re-smush images count,3. closing
+#. strong tag.
+#: app/class-admin.php:535
+msgid "%1$s%2$d attachment%3$s that needs re-smushing"
+msgid_plural "%1$s%2$d attachments%3$s that need re-smushing"
+msgstr[0] "%1$s%2$d个附件%3$s需要重新压缩"
+
+#. translators: 1. opening strong tag, 2: unsmushed images count,3. closing
+#. strong tag.
+#: app/class-admin.php:524
+msgid "%1$s%2$d attachment%3$s that needs smushing"
+msgid_plural "%1$s%2$d attachments%3$s that need smushing"
+msgstr[0] "%1$s%2$d个附件%3$s需要压缩"
+
+#: app/views/dashboard/upsell/meta-box.php:34
+msgid "10 GB Smush CDN"
+msgstr "10 GB Smush CDN"
+
+#: app/class-abstract-page.php:680
+msgid "Check Complete"
+msgstr "检查完成"
+
+#. translators: %1$s - opening tag, %2$s - closing tag
+#: core/modules/class-cdn.php:284
+msgid "Note: Smush will pre-fill the srcset attribute with missing image sizes so for this feature to work, those must be declared properly by your theme and page builder using the %1$scontent width%2$s variable."
+msgstr "注意：Smush将使用缺少的图像大小预填充srcset属性，因此，要使此功能起作用，必须由主题和页面构建器使用%1$s content width %2$s变量正确声明。"
+
+#: core/modules/class-cdn.php:280
+msgid "Having trouble with Google PageSpeeds ‘properly size images’ suggestion? This feature will fix this without any coding needed!"
+msgstr "对Google PageSpeeds“适当调整图片大小”的建议有疑问吗？此功能无需任何编码即可解决此问题！"
+
+#: app/pages/class-tutorials.php:58
+#: app/views/dashboard/directory-meta-box.php:65
+msgid "View All"
+msgstr "查看全部"
+
+#: _src/react/views/webp/step-footer.jsx:95
+#: _src/react/views/webp/step-footer.jsx:103
+#: app/assets/js/smush-react-webp.min.js:1190
+#: app/assets/js/smush-react-webp.min.js:1198
+msgid "Previous"
+msgstr "以前的"
+
+#: app/class-abstract-page.php:916
+msgid "Read article"
+msgstr "阅读文章"
+
+#: app/class-abstract-page.php:910 app/class-admin.php:318
+#: app/views/settings/permissions-meta-box.php:92 core/class-settings.php:1172
+msgid "Tutorials"
+msgstr "教程"
+
+#. translators: %1$s - opening a tag, %2$s - closing a tag
+#: core/class-core.php:318
+msgid "The widget has been removed. Smush tutorials can still be found in the %1$sTutorials tab%2$s any time."
+msgstr "该小部件已被删除。 Smush 教程仍然可以随时在 %1$sTutorials 选项卡%2$s 中找到。"
+
+#: app/views/smush-upgrade-page.php:140
+msgid "Serve next-gen WebP images (without Smush CDN)"
+msgstr "提供下一代WebP图像（不需要Smush CDN）。"
+
+#: app/views/smush-upgrade-page.php:135
+msgid "Streamline your images with Smush CDN"
+msgstr "使用Smush CDN简化您的图像"
+
+#. translators: %1$s - opening a tag, %2$s - closing a tag
+#: app/views/lazyload/meta-box.php:684
+msgid "Sometimes W3C HTML5 Validation may give error due to No Script."
+msgstr "有时W3C HTML5验证可能会因为没有脚本而出现错误。"
+
+#: app/views/lazyload/meta-box.php:662
+msgid "Disable NoScript while lazy loading is enabled."
+msgstr "启用懒惰加载时禁用NoScript。"
+
+#: app/views/lazyload/meta-box.php:659 app/views/lazyload/meta-box.php:679
+#: core/class-configs.php:676
+msgid "Disable Noscript"
+msgstr "禁用Noscript"
+
+#: app/modals/updated.php:31
+msgid "Smush Updated Modal"
+msgstr "Smush更新模式"
+
+#: core/class-core.php:316 _src/react/modules/configs.jsx:62
+#: app/assets/js/smush-react-configs.min.js:6497
+msgid "Dismiss notice"
+msgstr "驳回通知"
+
+#. translators: %1$s - opening a tag, %2$s - closing a tag
+#: app/views/lazyload/meta-box.php:645
+msgid "In some cases can cause the \"Defer offscreen images\" Google PageSpeed audit to fail. See browser compatibility %1$shere%2$s."
+msgstr "某些情况下可能会导致Google PageSpeed审核的“延迟离屏图像”失败。在%1$s这里%2$s查看浏览器兼容性。"
+
+#: app/views/lazyload/meta-box.php:639
+msgid "Enable native lazy loading"
+msgstr "启用本机延迟加载"
+
+#: app/views/lazyload/meta-box.php:623
+msgid "Enable support for native browser lazy loading."
+msgstr "启用对本机浏览器延迟加载的支持。"
+
+#: app/views/lazyload/meta-box.php:620
+msgid "Native lazy load"
+msgstr "本机延迟加载"
+
+#. translators: %1$s - Open a link <a>, %2$s - closing link tag
+#: core/modules/class-cdn.php:307
+msgid "Note: Smush will use the %1$srest_pre_echo_response%2$s hook to filter images in REST API responses."
+msgstr "注意：Smush将使用%1$srest_pre_echo_response%2$s挂钩来过滤REST API响应中的图像。"
+
+#: core/modules/class-cdn.php:252
+msgid "Smush can automatically replace image URLs when fetched via REST API endpoints."
+msgstr "通过REST API端点获取时，Smush可以自动替换图像URL。"
+
+#: core/modules/class-cdn.php:251
+msgid "REST API"
+msgstr "REST API"
+
+#: core/modules/class-cdn.php:250
+msgid "Enable REST API support"
+msgstr "启用REST API支持"
+
+#: core/modules/class-resize-detection.php:136
+msgid "All images are properly sized"
+msgstr "所有图像尺寸正确"
+
+#: core/modules/class-backup.php:770
+msgid "Error getting file name"
+msgstr "获取文件名时出错"
+
+#: core/external/plugin-notice/notice.php:325
+msgid "Generate leads with pop-ups, slide-ins and email opt-ins."
+msgstr "通过弹出窗口、幻灯片和电子邮件选择加入潜在客户。"
+
+#: core/external/plugin-notice/notice.php:317
+msgid "Create dynamic forms easily and quickly with our form builder."
+msgstr "使用我们的表单生成器轻松快速地创建动态表单。"
+
+#: core/external/plugin-notice/notice.php:309
+msgid "Configure your markup for optimal page and social ranking."
+msgstr "配置您的标记以获得最佳页面和社交排名。"
+
+#: core/external/plugin-notice/notice.php:301
+msgid "Secure and protect your site from malicious hackers and bots."
+msgstr "保护您的网站免受恶意黑客和僵尸程序的攻击。"
+
+#: core/external/plugin-notice/notice.php:293
+msgid "Add powerful caching and optimize your assets."
+msgstr "增添了强有力的缓存和资料优化。"
+
+#: core/external/plugin-notice/notice.php:285
+msgid "Resize, optimize and compress all of your images to the max."
+msgstr "重新调整大小，优化，并压缩您的所有图像到极致。"
+
+#. translators: %s - plugin name
+#: core/external/plugin-notice/notice.php:193
+msgid "Enjoying %s? Try out a few of our other popular free plugins..."
+msgstr "觉得 %s 很好用? 来尝试一些其它由我们出品的免费 plugins 吧..."
+
+#: app/modals/onboarding.php:63 core/class-settings.php:279
+msgid "Photos often store camera settings in the file, i.e., focal length, date, time and location. Removing EXIF data reduces the file size. Note: it does not strip SEO metadata."
+msgstr "照片通常会将相机设置存储在文件中，即焦距，日期，时间和位置。删除EXIF数据会减小文件大小。注意：它不会剥离SEO元数据。"
+
+#: app/views/cdn/disabled-meta-box.php:24 app/views/cdn/upsell-meta-box.php:23
+#: app/views/dashboard/cdn/meta-box.php:20
+msgid "Multiply the speed and savings! Upload huge images and the Smush CDN will perfectly resize the files, safely convert to a Next-Gen format (WebP), and delivers them directly to your visitors from our blazing-fast multi-location globe servers."
+msgstr "速度与节省相乘！上传巨大的图像，Smush CDN会完美调整文件大小，安全地转换为下一代格式（WebP），并从我们快速的多位置Globe服务器直接将其传递给您的访客。"
+
+#: app/modals/onboarding.php:67 app/views/dashboard/lazy-load-meta-box.php:19
+#: app/views/lazyload/disabled-meta-box.php:23
+#: app/views/lazyload/meta-box.php:25
+msgid "This feature stops offscreen images from loading until a visitor scrolls to them. Make your page load faster, use less bandwidth and fix the “defer offscreen images” recommendation from a Google PageSpeed test."
+msgstr "仅加载当前可视区域中的图片，当滚动页面时动态加载，提高页面加载速度，并修复Google 页面速度测试中的“延迟加载屏幕外的图片”的建议。"
+
+#: app/views/smush-upgrade-page.php:73
+msgid "Play"
+msgstr "播放"
+
+#: app/views/smush-upgrade-page.php:71
+msgid "Learn why Smush Pro is the best image optimization plugin."
+msgstr "了解为什么Smush Pro是最好的图像优化插件。"
+
+#: app/views/smush-upgrade-page.php:70
+msgid "Optimize unlimited images with Smush Pro"
+msgstr "使用Smush Pro优化无限的图像"
+
+#. translators: %1$d - number of skipped images, %2$d - total number of images,
+#. %3$d - number of failed images
+#: app/pages/class-directory.php:151
+msgid "%1$d/%2$d images were skipped because they were already optimized and %3$d/%2$d images resulted in an error"
+msgstr "%1$d/%2$d图像被跳过，因为它们已经被优化，而%3$d/%2$d图像导致错误"
+
+#. translators: %1$d - number of failed images, %2$d - total number of images
+#: app/pages/class-directory.php:139
+msgid "%d resulted in an error"
+msgid_plural "%1$d/%2$d images resulted in an error, check the logs for more information"
+msgstr[0] "%1$d/%2$d个映像导致错误，有关详细信息，请检查日志"
+
+#. translators: %1$d - number of skipped images, %2$d - total number of images
+#: app/pages/class-directory.php:126
+msgid "%d image was skipped because it was already optimized"
+msgid_plural "%1$d/%2$d images were skipped because they were already optimized"
+msgstr[0] "%1$d/%2$d 图像被跳过，因为它已经被优化了"
+
+#: app/pages/class-directory.php:98
+msgid "Image compression complete."
+msgstr "图像压缩完成。"
+
+#. translators: %1$s: bytes savings, %2$s: percentage savings
+#: core/media-library/class-media-library-row.php:395
+msgid "Reduced by %1$s (%2$s)"
+msgstr "%3$d个图像减少了%1$s（%2$s）"
+
+#: app/class-media-library.php:309 app/class-media-library.php:380
+msgid "Smush: Not processed"
+msgstr "Smush: 未处理"
+
+#: app/class-admin.php:497
+msgid "Manage Plugins"
+msgstr "管理插件"
+
+#: app/class-admin.php:491
+msgid "You have multiple WordPress image optimization plugins installed. This may cause unpredictable behavior while optimizing your images, inaccurate reporting, or images to not display. For best results use only one image optimizer plugin at a time. These plugins may cause issues with Smush:"
+msgstr "您安装了多个WordPress图片优化插件。这可能会导致优化图片时出现不可预测的行为，报告不准确，或者图片不显示。为了获得最佳效果，请一次只使用一个图片优化插件。这些插件可能会导致Smush的问题:"
+
+#: app/class-admin.php:271
+msgid "Premium Support"
+msgstr "高级支持"
+
+#: app/class-admin.php:267
+msgid "View details"
+msgstr "查看详情"
+
+#: app/class-admin.php:261
+msgid "Rate Smush"
+msgstr "评价 Smush"
+
+#: app/class-admin.php:230
+msgid "View Smush Documentation"
+msgstr "查看SMUSH文档"
+
+#: app/class-admin.php:220 app/class-admin.php:221
+msgid "Renew Membership"
+msgstr "续费会员"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/wpmudev/"
+msgstr "https://profiles.wordpress.org/wpmudev/"
+
+#: core/modules/class-dir.php:312
+msgid "Potential Phar PHP Object Injection detected"
+msgstr "检测到潜在的Phar PHP对象注入"
+
+#: app/views/lazyload/meta-box.php:100
+msgid "iframe"
+msgstr "iframe"
+
+#: app/class-media-library.php:305
+msgid "Filter by Smush status"
+msgstr "按Smush状态过滤"
+
+#: app/modals/onboarding.php:151
+msgid "First step"
+msgstr "第一步"
+
+#: app/modals/restore-images.php:34 app/modals/webp-delete-all.php:29
+msgid "Close this modal"
+msgstr "通过单击模态窗口外的任何地方关闭模态框"
+
+#: app/modals/restore-images.php:26
+msgid "Restoring images..."
+msgstr "正在还原映像..."
+
+#: app/views/nextgen/progress-bar.php:50
+msgid "images smushed"
+msgstr "图像已压缩"
+
+#: core/integrations/class-nextgen.php:273
+msgid "To use this feature you need to be using NextGen Gallery."
+msgstr "要使用此功能，您需要使用NextGen Gallery。"
+
+#: core/integrations/class-composer.php:91
+msgid "To use this feature you need be using WPBakery Page Builder."
+msgstr "要使用此功能，您需要使用 WPBakery 页面生成器。"
+
+#: app/class-media-library.php:514 core/class-core.php:291
+#: core/media-library/class-media-library-row.php:209
+msgid "Ignore"
+msgstr "忽略"
+
+#: app/pages/class-bulk.php:267
+msgid "As of WordPress 5.3, large image uploads are resized down to a specified max width and height. If you require images larger than 2560px, you can override this setting here."
+msgstr "自 WordPress 5.3 起，图像上传时将被调整到指定的最大宽度和高度。如果需要大于 2560px 的图像，可以在此设置。"
+
+#: core/class-helper.php:347
+msgid "Couldn't process image due to bad headers. Try re-saving the image in an image editor, then upload it again."
+msgstr "由于标题错误，无法处理图片。尝试在图像编辑器中重新保存图像，然后再次上传。"
+
+#: app/views/dashboard/upsell/meta-box.php:56
+#: app/views/smush-upgrade-page.php:170
+msgid "24/7 live WordPress support"
+msgstr "24/7 实时 WordPress 支持"
+
+#: app/views/smush-upgrade-page.php:165
+msgid "Premium WordPress plugins"
+msgstr "高级WordPress插件"
+
+#: app/views/smush-upgrade-page.php:146
+msgid "Smush looks for additional savings and automatically converts PNG files to JPEG if it will further reduce the size without a visible drop in quality. Now that's smart image compression."
+msgstr "Smush 寻求额外的节省,并自动将 PNG 文件转换为 JPEG,如果它将进一步减小大小,而不会出现明显的质量下降。这就是智能图像压缩。"
+
+#: app/views/smush-upgrade-page.php:124
+msgid "No limits, no restrictions"
+msgstr "无限制,无限制"
+
+#: app/views/smush-upgrade-page.php:110
+msgid "Upgrading to Pro will get you the following benefits."
+msgstr "升级到 Pro 将为您提供以下好处。"
+
+#: app/views/smush-upgrade-page.php:43
+msgid "customers"
+msgstr "顾客"
+
+#: app/views/smush-upgrade-page.php:43
+msgid "5.0 rating from"
+msgstr "5.0 评分从"
+
+#: app/class-admin.php:287
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: app/views/bulk-settings/meta-box.php:66
+msgid "Made a mistake? Use this feature to restore your image thumbnails to their original state."
+msgstr "犯了个错误？使用此功能可将图像缩略图恢复到原始状态。"
+
+#: app/views/bulk-settings/meta-box.php:62
+msgid "Bulk restore"
+msgstr "批量恢复"
+
+#: app/views/settings/permissions-meta-box.php:23
+msgid "By default, subsites will inherit your network settings. Choose which modules you want to allow subsite admins to override."
+msgstr "默认情况下,子站点将继承您的网络设置。选择要允许子站点管理员重写的模块。"
+
+#: app/views/settings/permissions-meta-box.php:20
+#: _src/react/modules/configs.jsx:151
+#: app/assets/js/smush-react-configs.min.js:6586
+msgid "Subsite Controls"
+msgstr "子站点控件"
+
+#: core/modules/class-cdn.php:924
+msgid "Too many requests, please try again in a moment."
+msgstr "请求太多,请稍加重试。"
+
+#. translators: %1$s - Open the link <a>, %2$s - closing link tag
+#: core/modules/class-cdn.php:299
+msgid "For any non-media library uploads, you can still use the %1$sDirectory Smush%2$s feature to compress them, they just won’t be served from the CDN."
+msgstr "对于任何非媒体库上传，您仍然可以使用%1$sDirectory Smush%2$s功能来压缩它们，它们不会从CDN提供."
+
+#. translators: %1$s - Open the link <a>, %2$s - Closing link tag
+#: core/modules/class-cdn.php:292
+msgid "Note: For this feature to work your theme’s background images must be declared correctly using the default %1$swp_attachment%2$s functions."
+msgstr "注意:要此功能才能使用主题的背景图像,必须使用默认的 %1$swp_附件%2$s 函数正确声明主题的背景图像。"
+
+#: core/modules/class-cdn.php:237
+msgid "Where possible we will serve background images declared with CSS directly from the CDN."
+msgstr "在可能的情况下，我们将直接从CDN提供使用CSS声明的背景图像."
+
+#: core/modules/class-cdn.php:236
+msgid "Background Images"
+msgstr "背景图像"
+
+#: app/views/cdn/upsell-meta-box.php:37 core/modules/class-cdn.php:235
+msgid "Serve background images from the CDN"
+msgstr "从CDN服务背景图像"
+
+#: app/views/settings/permissions-meta-box.php:64
+msgid "Choose which modules settings subsite admins have access to."
+msgstr "选择子站点管理员可以访问的模块设置."
+
+#: app/views/settings/permissions-meta-box.php:58
+msgid "Subsite admins can override all module settings."
+msgstr "子站点管理员可以覆盖所有模块设置。"
+
+#: app/views/settings/permissions-meta-box.php:50
+msgid "Subsite admins can't override any module settings and will always inherit your network settings."
+msgstr "子网站管理员无法覆盖任何模块设置，并始终会继承您的网络设置."
+
+#: app/views/lazyload/meta-box.php:323
+msgid "Images will flash into view as soon as they are ready to display."
+msgstr "图像一旦设置就立刻显示."
+
+#: app/views/lazyload/meta-box.php:313
+msgid "Select"
+msgstr "选择"
+
+#: app/views/lazyload/meta-box.php:303
+msgid "Background color"
+msgstr "背景颜色"
+
+#: app/views/lazyload/meta-box.php:262 app/views/lazyload/meta-box.php:275
+msgid "Placeholder image"
+msgstr "占位符图像"
+
+#: app/views/lazyload/meta-box.php:255
+msgid "Image"
+msgstr "图片"
+
+#: app/views/lazyload/meta-box.php:253
+msgid "Display a placeholder to display instead of the actual image during lazy loading. You can choose a predefined image, or upload your own."
+msgstr "在延迟加载期间显示要显示的占位符，而不是实际图像。你可以选择一个预定义的图像，或者上传你自己的."
+
+#: app/views/lazyload/meta-box.php:243 app/views/lazyload/meta-box.php:295
+msgid "Remove file"
+msgstr "删除文件"
+
+#: app/views/lazyload/meta-box.php:238 app/views/lazyload/meta-box.php:290
+msgid "Upload file"
+msgstr "上传文件"
+
+#: app/views/lazyload/meta-box.php:209 app/views/lazyload/meta-box.php:223
+msgid "Spinner image"
+msgstr "指示器图片"
+
+#: app/views/lazyload/meta-box.php:200
+msgid "Display a spinner where the image will be during lazy loading. You can choose a predefined spinner, or upload your own GIF."
+msgstr "显示在延迟加载期间图像将处于其中的微调器。您可以选择预定义的微调器,或上传您自己的 GIF。"
+
+#: app/views/lazyload/meta-box.php:180
+msgid "Once the image has loaded, choose how you want the image to display when it comes into view."
+msgstr "加载图像后,选择图像进入视图时的显示方式。"
+
+#: app/views/lazyload/meta-box.php:169
+msgid "Placeholder"
+msgstr "占位"
+
+#: app/views/lazyload/meta-box.php:154
+msgid "Choose how you want the non-loaded image to look."
+msgstr "选择未加载图像的外观."
+
+#: app/views/lazyload/meta-box.php:152
+msgid "Display"
+msgstr "显示"
+
+#: app/views/lazyload/meta-box.php:148
+msgid "Choose how you want preloading images to be displayed, as well as how they animate into view."
+msgstr "选择希望预加载图像的显示方式,以及它们如何动画化到视图中。"
+
+#: app/views/lazyload/meta-box.php:145
+msgid "Display & Animation"
+msgstr "显示和动画"
+
+#: app/modals/restore-images.php:157
+msgid "Retry"
+msgstr "重试"
+
+#. translators: 1: Open a link <a>, 2: Close the link </a>
+#: app/modals/restore-images.php:141
+msgid "Note: You can find all the images which couldn't be restored (still smushed) in your %1$sMedia Library%2$s."
+msgstr "注意：您可以在%1$s媒体库%2$s中找到所有无法还原（仍然模糊）的图像。"
+
+#: app/modals/restore-images.php:129
+msgid "View item in Media Library"
+msgstr "在媒体库中查看项目"
+
+#: app/modals/restore-images.php:101
+msgid "images were successfully restored but some were unrecoverable. You can try again, or re-upload these images."
+msgstr "映像已成功还原，但其中一些不可恢复。您可以重试，或重新上传这些图像。"
+
+#: app/modals/restore-images.php:93 _src/react/views/webp/step-footer.jsx:157
+#: app/assets/js/smush-react-webp.min.js:1252
+msgid "Finish"
+msgstr "完成"
+
+#: app/modals/restore-images.php:87
+msgid "images were successfully restored."
+msgstr "已成功还原映像。"
+
+#: app/modals/restore-images.php:77
+msgid "Initializing restore..."
+msgstr "正在初始化还原..."
+
+#: app/modals/restore-images.php:55
+msgid "Confirm"
+msgstr "确认"
+
+#: app/modals/restore-images.php:45
+msgid "Your bulk restore has finished running."
+msgstr "您的批量恢复已完成运行."
+
+#: app/modals/restore-images.php:43
+msgid "Your bulk restore is still in progress, please leave this tab open while the process runs."
+msgstr "您的批量还原仍在进行中,请在进程运行时保持此选项卡处于打开状态。"
+
+#: app/modals/restore-images.php:41
+msgid "Are you sure you want to restore all image thumbnails to their original, non-optimized states?"
+msgstr "您确定要将所有图像缩略图恢复为原始的非优化状态吗？"
+
+#: app/modals/restore-images.php:28
+msgid "Restore complete"
+msgstr "恢复完成"
+
+#: app/modals/restore-images.php:24 app/views/bulk-settings/meta-box.php:74
+msgid "Restore Thumbnails"
+msgstr "还原缩略图"
+
+#: app/modals/onboarding.php:114
+msgid "Enable Lazy Loading"
+msgstr "启用延迟加载"
+
+#: app/pages/class-settings.php:219
+msgid "Error detecting language"
+msgstr "检测语言错误"
+
+#: core/integrations/class-composer.php:70
+msgid "Allow smushing images resized in WPBakery Page Builder editor."
+msgstr "允许在WPBakery页面构建器编辑器中调整大小的图像."
+
+#: core/integrations/class-composer.php:69
+msgid "WPBakery Page Builder"
+msgstr "可视化编辑器"
+
+#: core/integrations/class-composer.php:68
+msgid "Enable WPBakery Page Builder integration"
+msgstr "启用 WPBakery 页面生成器集成"
+
+#: app/views/settings/data-meta-box.php:67
+msgid "If you're having issues with enabling pro features you can force the API to update your membership status here."
+msgstr "如果您在启用 pro 功能时遇到问题,可以在此处强制 API 更新您的成员资格状态。"
+
+#: app/views/settings/data-meta-box.php:65
+msgid "API Status"
+msgstr "API 状态"
+
+#: core/class-settings.php:294
+msgid "This will add functionality to your website that highlights images that are either too large or too small for their containers."
+msgstr "这将向您的网站添加功能,突出显示其容器太大或太小的图像。"
+
+#: app/views/dashboard/tools-meta-box.php:33 core/class-settings.php:293
+msgid "Image Resize Detection"
+msgstr "图像调整大小检测"
+
+#: core/class-settings.php:263
+msgid "Automatic compression"
+msgstr "自动压缩"
+
+#: core/class-settings.php:259
+msgid "WordPress generates multiple image thumbnails for each image you upload. Choose which of those thumbnail sizes you want to include when bulk smushing."
+msgstr "WordPress为您上传的每张图片生成多个图像缩略图。 在批量优化时选择要包含的缩略图尺寸."
+
+#: core/class-settings.php:258
+msgid "Image Sizes"
+msgstr "图像大小"
+
+#. translators: %1$d - attachment ID, %2$s - error.
+#: core/class-cli.php:206
+msgid "Error compressing image (ID: %1$d). %2$s"
+msgstr "压缩图像时出错 (ID: %1$d). %2$s"
+
+#: app/class-abstract-summary-page.php:172
+#: app/views/dashboard/cdn/meta-box.php:80
+#: app/views/dashboard/integrations-meta-box.php:51
+#: app/views/dashboard/summary-meta-box.php:84
+#: app/views/dashboard/summary-meta-box.php:109
+#: app/views/dashboard/summary-meta-box.php:131
+#: app/views/dashboard/tools-meta-box.php:37 core/class-configs.php:653
+msgid "Active"
+msgstr "已启用"
+
+#: app/class-abstract-summary-page.php:167
+msgid "Activating"
+msgstr "激活"
+
+#: app/class-abstract-summary-page.php:164
+msgid "Needs upgrade"
+msgstr "需要升级"
+
+#: app/class-abstract-summary-page.php:161
+msgid "You're almost through your CDN bandwidth limit. Please contact your administrator to upgrade your Smush CDN plan to ensure you don't lose this service"
+msgstr "您几乎要通过 CDN 带宽限制。请与您的管理员联系以升级您的 Smush CDN 计划，以确保不会丢失此服务"
+
+#: app/class-abstract-summary-page.php:159
+#: app/views/dashboard/summary-meta-box.php:76
+#: app/views/dashboard/summary-meta-box.php:81
+msgid "Overcap"
+msgstr "盖过"
+
+#: app/class-abstract-summary-page.php:156
+msgid "You've gone through your CDN bandwidth limit, so we’ve stopped serving your images via the CDN. Contact your administrator to upgrade your Smush CDN plan to reactivate this service"
+msgstr "您已经通过 CDN 带宽限制,因此我们已停止通过 CDN 提供图像。请与您的管理员联系以升级您的 Smush CDN 计划以重新激活此服务"
+
+#: core/api/class-smush-api.php:95
+msgid "[WPMUDEV API] Skipped sync due to API error exponential backoff."
+msgstr "[WPMUDEV API]由于 API 错误指数回退而跳过同步。"
+
+#: app/views/bulk/meta-box.php:31 app/views/dashboard/bulk/meta-box.php:22
+#: app/views/nextgen/meta-box.php:21
+msgid "Bulk smush detects images that can be optimized and allows you to compress them in bulk."
+msgstr "smush批量检测可优化的图像，并允许您批量压缩它们。"
+
+#: app/views/settings/data-meta-box.php:75
+msgid "Update API status"
+msgstr "更新 API 状态"
+
+#: app/common/progress-bar.php:72 app/views/nextgen/progress-bar.php:57
+msgid "Resume"
+msgstr "恢复"
+
+#: app/modals/onboarding.php:65
+msgid "You can also have Smush compress your original images - this is helpful if your theme serves full size images."
+msgstr "您还可以让 Smush 压缩原始图像 - 如果您的主题提供全尺寸图像,这非常有用。"
+
+#. translators: %1$s - starting a tag, %2$s - closing a tag
+#: app/pages/class-cdn.php:104
+msgid "You've gone through your CDN bandwidth limit, so we’ve stopped serving your images via the CDN. Contact your administrator to upgrade your Smush CDN plan to reactivate this service. %1$sUpgrade now%2$s"
+msgstr "您已经通过 CDN 带宽限制,因此我们已停止通过 CDN 提供图像。请与您的管理员联系以升级您的 Smush CDN 计划以重新激活此服务。%1$s升级现在%2$s"
+
+#. translators: %1$s - starting a tag, %2$s - closing a tag
+#: app/pages/class-cdn.php:95
+msgid "You're almost through your CDN bandwidth limit. Please contact your administrator to upgrade your Smush CDN plan to ensure you don't lose this service. %1$sUpgrade now%2$s"
+msgstr "您几乎要通过 CDN 带宽限制。请与您的管理员联系以升级您的 Smush CDN 计划,以确保不会丢失此服务。%1$s升级现在%2$s"
+
+#: app/class-abstract-summary-page.php:169 app/pages/class-cdn.php:85
+msgid "Your media is currently being served from the WPMU DEV CDN. Bulk and Directory smush features are treated separately and will continue to run independently."
+msgstr "您的媒体当前正在从 WPMU DEV CDN 提供服务。批量和目录 smush 功能单独处理,并将继续独立运行。"
+
+#: app/pages/class-bulk.php:369
+msgid "Included image sizes"
+msgstr "包括图像大小"
+
+#: app/pages/class-bulk.php:363 app/views/settings/permissions-meta-box.php:41
+msgid "Custom"
+msgstr "自定义"
+
+#: app/pages/class-bulk.php:359 app/views/settings/permissions-meta-box.php:37
+#: core/class-configs.php:730
+msgid "All"
+msgstr "所有"
+
+#: app/pages/class-bulk.php:327
+msgid "Note: We will only automatically compress the image sizes selected above."
+msgstr "注意:我们只会自动压缩上面选择的图像大小。"
+
+#: app/pages/class-settings.php:143
+msgid "Note: The highlighting will only be visible to administrators – visitors won’t see the highlighting."
+msgstr "注意:突出显示仅对管理员可见 – 访问者不会看到突出显示。"
+
+#: app/views/dashboard/cdn/meta-box.php:67
+msgid "Tools"
+msgstr "工具"
+
+#: app/class-admin.php:298 app/modals/onboarding.php:51
+#: app/modals/onboarding.php:168 app/pages/class-dashboard.php:132
+#: app/pages/class-lazy.php:30 app/pages/class-lazy.php:45
+#: app/views/dashboard/summary-meta-box.php:126
+#: app/views/settings/permissions-meta-box.php:80 core/class-configs.php:613
+#: core/class-settings.php:1170 _src/react/modules/configs.jsx:147
+#: app/assets/js/smush-react-configs.min.js:6582
+msgid "Lazy Load"
+msgstr "延迟加载"
+
+#: app/class-abstract-page.php:241
+msgid "Log In"
+msgstr "登录"
+
+#: app/class-abstract-page.php:236
+msgid "Smush Pro requires the WPMU DEV Dashboard plugin to unlock pro features. Please make sure you have installed, activated and logged into the Dashboard."
+msgstr "Smush Pro 需要 WPMU DEV 仪表板插件来解锁专业功能。请确保您已安装、激活并登录到仪表板。"
+
+#: core/class-core.php:310
+msgid "Ignore this image from bulk smushing"
+msgstr "从批量压缩中忽略此图像"
+
+#: app/views/settings/data-meta-box.php:27
+msgid "Choose how you want us to handle your plugin data."
+msgstr "选择您希望我们如何处理您的插件数据。"
+
+#: app/views/settings/data-meta-box.php:25
+msgid "Data"
+msgstr "数据"
+
+#: app/views/settings/data-meta-box.php:32
+msgid "Uninstallation"
+msgstr "卸载"
+
+#: core/modules/class-resize-detection.php:132
+msgid "Undersized"
+msgstr "尺寸不足的"
+
+#: core/class-error-handler.php:255
+msgid "No attachment ID was received."
+msgstr "未收到附件 ID。"
+
+#: app/class-media-library.php:512
+msgid "Show in bulk Smush"
+msgstr "在批量压缩中显示"
+
+#: app/modals/reset-settings.php:41
+msgid "Reset settings"
+msgstr "重新设置"
+
+#: app/modals/reset-settings.php:31
+msgid "Are you sure you want to reset Smush’s settings back to the factory defaults?"
+msgstr "确实要将 Smush的设置重置为默认值吗？"
+
+#: app/views/lazyload/meta-box.php:699
+msgid "No longer wish to use this feature? Turn it off instantly by hitting Deactivate."
+msgstr "不再希望使用此功能?通过点击\"停用\"立即将其关闭。"
+
+#: app/views/lazyload/meta-box.php:607
+msgid "Your theme must be using the wp_head() function."
+msgstr "您的主题必须使用 wp_head() 方法。"
+
+#: app/views/lazyload/meta-box.php:599
+msgid "Your theme must be using the wp_footer() function."
+msgstr "您的主题必须使用 wp_footer() 函数。"
+
+#: app/views/lazyload/meta-box.php:590
+msgid "Header"
+msgstr "页眉"
+
+#: app/views/lazyload/meta-box.php:585
+msgid "Footer"
+msgstr "页脚"
+
+#: app/views/lazyload/meta-box.php:576
+msgid "Method"
+msgstr "方法"
+
+#: app/views/lazyload/meta-box.php:571 app/views/lazyload/meta-box.php:578
+msgid "By default we will load the required scripts in your footer for max performance benefits. If you are having issues, you can switch this to the header."
+msgstr "默认情况下, 我们将在页脚中加载所需的脚本, 以获得最大的性能优势。如果您遇到问题, 可以将其切换到页头。"
+
+#: app/views/lazyload/meta-box.php:568
+msgid "Scripts"
+msgstr "脚本"
+
+#. translators: %1$s - opening strong tag, %2$s - closing strong tag
+#: app/views/lazyload/meta-box.php:555
+msgid "Add one class or ID per line, including the prefix. E.g %1$s#image-id%2$s or %1$s.image-class%2$s."
+msgstr "每行添加一个类或id，包括前缀。例如%1$s图像ID%2$s或%1$s。图像类%2$s。"
+
+#: app/views/lazyload/meta-box.php:550
+msgid "Add classes or IDs, one per line"
+msgstr "添加classes(类)或 ID,每行一个"
+
+#: app/views/lazyload/meta-box.php:542
+msgid "Additionally, you can specify classes or IDs to avoid lazy loading. This gives you absolute control over each image on a page, not just the page itself."
+msgstr "另外，可以指定类或id以避免延迟加载。这使您可以绝对控制页面上的每个图像，而不仅仅是页面本身."
+
+#: app/views/lazyload/meta-box.php:540
+msgid "Classes & IDs"
+msgstr "Classes(类) & IDs"
+
+#. translators: %1$s - opening strong tag, %2$s - closing strong tag
+#: app/views/lazyload/meta-box.php:531
+msgid "Add page or post URLs one per line in relative format. I.e. %1$s/example-page%2$s or %1$s/example-page/sub-page/%2$s."
+msgstr "以相对格式每行添加页面或发布一个 Url。即 %1$s/example-page%2$s 或 %1$s/example-page/sub-page/%2$s."
+
+#: app/views/lazyload/meta-box.php:526
+msgid "E.g. /page"
+msgstr "例如. /page"
+
+#: app/views/lazyload/meta-box.php:518
+msgid "Add URLs to the posts and/or pages you want to disable lazy loading on."
+msgstr "将 URL 添加到要禁用延迟加载的文章和/或页面。"
+
+#: app/views/lazyload/meta-box.php:516
+msgid "Post, Pages & URLs"
+msgstr "文章、页面和URLs"
+
+#: app/views/lazyload/meta-box.php:487
+msgid "Tags"
+msgstr "标签"
+
+#: app/views/lazyload/meta-box.php:476
+msgid "Categories"
+msgstr "分类目录"
+
+#: app/views/lazyload/meta-box.php:465
+msgid "Archives"
+msgstr "归档"
+
+#: app/views/lazyload/meta-box.php:454
+msgid "Posts"
+msgstr "文章"
+
+#: app/views/lazyload/meta-box.php:443
+msgid "Pages"
+msgstr "页面"
+
+#: app/views/lazyload/meta-box.php:432
+msgid "Blog"
+msgstr "博客"
+
+#: app/views/lazyload/meta-box.php:421
+msgid "Frontpage"
+msgstr "首页"
+
+#: app/views/lazyload/meta-box.php:415
+msgid "Type"
+msgstr "类型"
+
+#: app/views/lazyload/meta-box.php:414
+msgid "Name"
+msgstr "名称"
+
+#: app/views/lazyload/meta-box.php:409
+msgid "Choose the post types you want to lazy load."
+msgstr "选择要延迟加载的文章类型。"
+
+#: app/views/lazyload/meta-box.php:407
+msgid "Post Types"
+msgstr "文章类型"
+
+#: app/views/lazyload/meta-box.php:402
+msgid "Disable lazy loading for specific pages, posts or image classes that you wish to prevent lazyloading on."
+msgstr "禁用要防止延迟加载的特定页面、文章或图像类的延迟加载。"
+
+#: app/views/lazyload/meta-box.php:399
+msgid "Include/Exclude"
+msgstr "包括/排除"
+
+#: app/views/lazyload/meta-box.php:190
+msgid "Delay"
+msgstr "延迟"
+
+#: app/views/lazyload/meta-box.php:187 app/views/lazyload/meta-box.php:193
+msgid "ms"
+msgstr "毫秒"
+
+#: app/views/lazyload/meta-box.php:184
+msgid "Duration"
+msgstr "持续时间"
+
+#: app/views/lazyload/meta-box.php:173
+#: app/views/settings/permissions-meta-box.php:33 core/class-configs.php:730
+msgid "None"
+msgstr "无"
+
+#: app/views/lazyload/meta-box.php:165 app/views/lazyload/meta-box.php:202
+msgid "Spinner"
+msgstr "微调(旋转)器"
+
+#: app/views/lazyload/meta-box.php:161
+msgid "Fade In"
+msgstr "淡入"
+
+#: app/views/lazyload/meta-box.php:178
+msgid "Animation"
+msgstr "动画"
+
+#: app/views/lazyload/meta-box.php:137
+msgid "Gravatars"
+msgstr "Gravatars"
+
+#: app/views/lazyload/meta-box.php:131
+msgid "Post Thumbnail"
+msgstr "文章缩略图"
+
+#: app/views/lazyload/meta-box.php:125
+msgid "Widgets"
+msgstr "小工具"
+
+#: app/views/lazyload/meta-box.php:119
+msgid "Content"
+msgstr "内容"
+
+#: app/views/lazyload/meta-box.php:111
+msgid "By default we will lazy load all images, but you can refine this to specific media outputs too."
+msgstr "默认情况下，我们将延迟加载所有图像，但您也可以将其优化为特定的媒体输出."
+
+#: app/views/lazyload/meta-box.php:108 core/class-configs.php:671
+msgid "Output Locations"
+msgstr "输出位置"
+
+#: app/views/lazyload/meta-box.php:94
+msgid ".svg"
+msgstr ".svg"
+
+#: app/views/lazyload/meta-box.php:88
+msgid ".gif"
+msgstr ".gif"
+
+#: app/views/lazyload/meta-box.php:76
+msgid ".png"
+msgstr ".png"
+
+#: app/views/lazyload/meta-box.php:70
+msgid ".jpeg"
+msgstr ".jpeg"
+
+#: app/views/lazyload/meta-box.php:62
+msgid "Choose which media types you want to lazy load."
+msgstr "选择要延迟加载的媒体类型。"
+
+#: app/views/lazyload/meta-box.php:59 core/class-configs.php:670
+msgid "Media Types"
+msgstr "媒体类型"
+
+#: app/views/dashboard/lazy-load-meta-box.php:32
+#: app/views/lazyload/meta-box.php:34
+msgid "Lazy loading is active."
+msgstr "延迟加载处于活动状态。"
+
+#: app/modals/reset-settings.php:27 app/views/settings/data-meta-box.php:58
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#: app/views/settings/data-meta-box.php:53
+msgid "Need to revert back to the default settings? This button will instantly reset your settings to the defaults."
+msgstr "需要恢复到默认设置？此按钮将立即将设置重置为默认设置。"
+
+#: app/views/settings/data-meta-box.php:51
+msgid "Reset Factory Settings"
+msgstr "重置默认设置"
+
+#: app/modals/webp-delete-all.php:56 app/views/settings/data-meta-box.php:46
+#: _src/react/modules/configs.jsx:61 _src/react/modules/configs.jsx:119
+#: app/assets/js/smush-react-configs.min.js:6496
+#: app/assets/js/smush-react-configs.min.js:6554
+msgid "Delete"
+msgstr "删除"
+
+#: app/views/settings/data-meta-box.php:41
+msgid "Keep"
+msgstr "保持"
+
+#: app/views/settings/data-meta-box.php:34
+msgid "When you uninstall the plugin, what do you want to do with your settings? You can save them for next time, or wipe them back to factory settings."
+msgstr "卸载插件时, 您想如何处理您的设置？您可以将它们保存下来以备下次使用, 也可以将它们擦除回默认设置。"
+
+#: app/common/meta-box-footer.php:16
+msgid "Saving changes..."
+msgstr "正在保存更改..."
+
+#: app/pages/class-settings.php:152
+msgid "Note: Images served via the Smush CDN are automatically resized to fit their containers, these will be skipped."
+msgstr "注意:通过 Smush CDN 提供的图像会自动调整大小以适应其容器,这些图像将被跳过。"
+
+#: core/class-settings.php:319
+msgid "Help make Smush better by letting our designers learn how you’re using the plugin."
+msgstr "让我们的设计师了解您是如何使用该插件的, 从而帮助您让 Smush 变得更好。"
+
+#: core/class-settings.php:318
+msgid "Usage Tracking"
+msgstr "使用跟踪"
+
+#: core/class-settings.php:314
+msgid "Increase the visibility and accessibility of elements and components to meet WCAG AAA requirements."
+msgstr "提高元件和组件的可见性和可访问性,以满足 WCAG AAA 要求。"
+
+#: core/class-settings.php:313
+msgid "Color Accessibility"
+msgstr "颜色可访问性"
+
+#: core/class-settings.php:312
+msgid "Enable high contrast mode"
+msgstr "启用高对比度模式"
+
+#: core/class-cli.php:309
+msgid "All images restored"
+msgstr "所有图像已还原"
+
+#: core/class-cli.php:307
+msgid "There were issues restoring some images"
+msgstr "还原某些映像时出现问题"
+
+#: core/class-cli.php:278
+msgid "Restoring images"
+msgstr "正在恢复图像"
+
+#: core/class-cli.php:271
+msgid "Image with defined ID not found"
+msgstr "未找到具有已定义 ID 的图像"
+
+#: core/class-cli.php:265
+msgid "No images available to restore"
+msgstr "没有可用于还原的图像"
+
+#: core/class-cli.php:250
+msgid "All images compressed"
+msgstr "已压缩图像"
+
+#: core/class-cli.php:223
+msgid "Image compressed"
+msgstr "图像已压缩"
+
+#. translators: %d - attachment ID
+#: core/class-cli.php:198
+msgid "Image (ID: %d) already compressed"
+msgstr "图像(ID: %d)已被压缩"
+
+#: core/class-cli.php:133
+msgid "Unsmushed images:"
+msgstr "未压缩图像："
+
+#: core/class-cli.php:129
+msgid "No uncompressed images found"
+msgstr "未找到未压缩的图像"
+
+#: core/class-cli.php:79
+msgid "Smushing all images"
+msgstr "扫描所有图像"
+
+#. translators: %d - number of images
+#: core/class-cli.php:74
+msgid "Smushing first %d images"
+msgstr "正在压缩第 %d 张图像"
+
+#. translators: %d - image ID
+#: core/class-cli.php:68
+msgid "Smushing image ID: %d"
+msgstr "模糊图像ID：%d"
+
+#: app/views/dashboard/summary-meta-box.php:66
+#: app/views/dashboard/summary-meta-box.php:102
+msgid "Upgrade"
+msgstr "升级"
+
+#: app/class-admin.php:217 app/views/bulk/limit-reached-notice.php:26
+#: app/views/smush-upgrade-page.php:26
+msgid "Upgrade to Smush Pro"
+msgstr "升级到 Smush 专业版"
+
+#: app/modals/onboarding.php:188
+msgid "Skip this, I’ll set it up later"
+msgstr "跳过这个,我稍后会设置它"
+
+#: app/modals/onboarding.php:134 _src/react/views/webp/step-footer.jsx:117
+#: app/assets/js/smush-react-webp.min.js:1212
+msgid "Next"
+msgstr "下一个"
+
+#: app/modals/onboarding.php:128
+msgid "Finish setup wizard"
+msgstr "完成设置向导"
+
+#: app/modals/onboarding.php:123
+msgid "Note: By default we will store a copy of your original uploads just in case you want to revert in the future - you can turn this off at any time."
+msgstr "注意:默认情况下,我们将存储原始上传的副本,以备还原 - 您可以随时关闭此内容。"
+
+#: app/modals/onboarding.php:112
+msgid "Compress my full size images"
+msgstr "压缩我的全尺寸图像"
+
+#: app/modals/onboarding.php:106
+msgid "Automatically optimize new uploads"
+msgstr "自动优化新上传"
+
+#: app/modals/onboarding.php:96
+msgid "Begin setup"
+msgstr "开始设置"
+
+#: app/modals/onboarding.php:59
+msgid "When you upload images to your site, Smush can automatically optimize and compress them for you saving you having to do this manually."
+msgstr "当您将图像上传到您的网站时,Smush 可以自动优化和压缩它们,以便您节省手动执行此操作。"
+
+#: app/modals/onboarding.php:47 app/modals/onboarding.php:160
+msgid "EXIF Metadata"
+msgstr "EXIF信息"
+
+#: app/modals/onboarding.php:43 app/modals/onboarding.php:154
+msgid "Automatic Compression"
+msgstr "自动压缩"
+
+#. translators: %s: current user name
+#: app/modals/onboarding.php:40
+msgid "Hey, %s!"
+msgstr "你好,%s!"
+
+#: app/modals/onboarding.php:30
+msgid "Smush Onboarding Modal"
+msgstr "Smush 载入模式"
+
+#: app/pages/class-settings.php:122
+msgid "Note: Usage tracking is completely anonymous. We are only tracking what features you are/aren’t using to make our feature decisions more informed."
+msgstr "注意:使用情况跟踪是完全匿名的。我们只是跟踪您/没有使用哪些功能来使我们的功能决策更加明智。"
+
+#: app/class-media-library.php:385
+msgid "Select an image to view Smush stats."
+msgstr "选择图像以查看 Smush 统计信息。"
+
+#: app/class-ajax.php:668 app/class-ajax.php:825
+msgid "User can not modify options"
+msgstr "用户无法修改选项"
+
+#: app/views/dashboard/cdn/meta-box.php:76 core/modules/class-cdn.php:246
+msgid "WebP Conversion"
+msgstr "网络转换"
+
+#: core/modules/class-cdn.php:245
+msgid "Enable WebP conversion"
+msgstr "启用 WebP 转换"
+
+#: core/modules/class-cdn.php:242
+msgid "If your images don’t match their containers, we’ll automatically serve a correctly sized image."
+msgstr "如果您的图像与其容器不匹配,我们将自动提供大小正确的图像。"
+
+#: core/modules/class-cdn.php:241
+msgid "Automatic Resizing"
+msgstr "自动调整大小"
+
+#: core/modules/class-cdn.php:240
+msgid "Enable automatic resizing of my images"
+msgstr "启用图像的自动调整大小"
+
+#: core/api/class-request.php:82
+msgid "Invalid API service."
+msgstr "无效的 API 服务。"
+
+#: app/common/footer-links.php:50 app/common/footer-links.php:75
+#: app/views/smush-upgrade-page.php:220
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: app/common/footer-links.php:47 app/common/footer-links.php:72
+#: app/views/smush-upgrade-page.php:217
+msgid "Terms of Service"
+msgstr "服务条款"
+
+#: app/common/footer-links.php:32 app/views/smush-upgrade-page.php:202
+msgid "Free Plugins"
+msgstr "免费版插件"
+
+#: app/common/footer-links.php:69
+msgid "Community"
+msgstr "社区"
+
+#: app/class-admin.php:230 app/common/footer-links.php:41
+#: app/common/footer-links.php:66 app/views/smush-upgrade-page.php:211
+msgid "Docs"
+msgstr "文档"
+
+#: app/class-admin.php:262 app/common/footer-links.php:38
+#: app/common/footer-links.php:63 app/views/smush-upgrade-page.php:208
+msgid "Support"
+msgstr "支持中心"
+
+#: app/class-admin.php:274 app/common/footer-links.php:35
+#: app/common/footer-links.php:60 app/views/smush-upgrade-page.php:205
+msgid "Roadmap"
+msgstr "路线图"
+
+#: app/common/footer-links.php:57
+msgid "Plugins"
+msgstr "插件"
+
+#: app/common/footer-links.php:44 app/common/footer-links.php:54
+#: app/views/smush-upgrade-page.php:214
+msgid "The Hub"
+msgstr "教程"
+
+#. translators: %d: number of images with errors
+#: app/views/dashboard/directory-meta-box.php:56
+#: app/views/directory/meta-box.php:70
+msgid "Showing 20 of %d failed optimizations. Fix or remove these images and run another Directory Smush."
+msgstr "显示 20 个 %d 失败的优化。修复或删除这些映像并运行另一个目录 Smush。"
+
+#: app/views/dashboard/directory-meta-box.php:21
+#: app/views/directory/meta-box.php:25
+msgid "In addition to smushing your media uploads, you may want to smush non WordPress images that are outside of your uploads directory. Get started by adding files and folders you wish to optimize."
+msgstr "除了压缩媒体上传之外,您可能还希望压缩上传目录之外的非 WordPress 图像。通过添加要优化的文件和文件夹开始。"
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: app/views/settings/general-meta-box.php:51
+msgid "Not using your language, or have improvements? Help us improve translations by providing your own improvements %1$shere%2$s."
+msgstr "不使用您的语言,或有改进?通过提供您自己的改进 %1$shere%2$s,帮助我们改进翻译。"
+
+#: app/views/settings/general-meta-box.php:44
+msgid "Active Translation"
+msgstr "启用翻译"
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: app/views/settings/general-meta-box.php:34
+msgid "By default, Smush will use the language you’d set in your %1$sWordPress Admin Settings%2$s if a matching translation is available."
+msgstr "默认情况下，如果匹配的翻译可用，Smush将使用您在%1$sWordPress管理设置%2$s中设置的语言。"
+
+#: app/views/settings/general-meta-box.php:30
+msgid "Translations"
+msgstr "翻译"
+
+#: app/views/bulk-settings/meta-box.php:27
+msgid "Your images are currently being served via the WPMU DEV CDN. Bulk smush will continue to operate as per your settings below and is treated completely separately in case you ever want to disable the CDN."
+msgstr "您的图像当前正在通过 WPMU DEV CDN 提供。批量 smush 将继续按照下面的设置运行,并在您要禁用 CDN 时完全单独处理。"
+
+#: app/views/cdn/meta-box.php:115
+msgid "Note: You won’t lose any images by deactivating, all of your attachments are still stored locally on your own server."
+msgstr "注意：您不会通过停用丢失任何图像，您的所有附件仍存储在本地您自己的服务器上。"
+
+#: app/views/cdn/meta-box.php:98
+msgid "If you no longer require your images to be hosted from our CDN, you can disable this feature."
+msgstr "如果您不再需要从我们的 CDN 托管您的图像，您可以禁用此功能。"
+
+#: app/views/cdn/meta-box.php:94 app/views/cdn/meta-box.php:109
+#: app/views/lazyload/meta-box.php:695 app/views/lazyload/meta-box.php:710
+#: app/views/webp/webp-meta-box.php:182 app/views/webp/webp-meta-box.php:194
+msgid "Deactivate"
+msgstr "禁用"
+
+#: app/views/cdn/meta-box.php:72
+msgid "At this time, we don’t support videos. We recommend uploading your media to a third-party provider and embedding the videos into your posts/pages."
+msgstr "目前,我们不支持视频。我们建议您将媒体上传到第三方提供商,并将视频嵌入到您的文章/网页中。"
+
+#: app/views/cdn/meta-box.php:66
+msgid "webp"
+msgstr "webp"
+
+#: app/views/cdn/meta-box.php:62
+msgid "gif"
+msgstr "gif"
+
+#: app/views/cdn/meta-box.php:59 app/views/webp/webp-meta-box.php:131
+msgid "png"
+msgstr "png"
+
+#: app/views/cdn/meta-box.php:56 app/views/webp/webp-meta-box.php:128
+msgid "jpg"
+msgstr "jpg"
+
+#: app/views/cdn/meta-box.php:50
+msgid "Here’s a list of the media types we serve from the CDN."
+msgstr "下面是我们从 CDN 提供的媒体类型列表。"
+
+#: app/views/cdn/meta-box.php:46 app/views/webp/webp-meta-box.php:120
+msgid "Supported Media Types"
+msgstr "支持的媒体类型"
+
+#: app/views/cdn/meta-box.php:35
+msgid "Upgrade Plan"
+msgstr "升级计划"
+
+#: app/common/meta-box-footer.php:28
+msgid "Activating CDN..."
+msgstr "正在激活 CDN..."
+
+#: app/common/meta-box-footer.php:27
+msgid "Save & Activate"
+msgstr "保存并激活"
+
+#: app/class-abstract-page.php:232 app/views/cdn/disabled-meta-box.php:19
+#: app/views/cdn/upsell-meta-box.php:20
+#: app/views/lazyload/disabled-meta-box.php:18
+msgid "Smush CDN"
+msgstr "Smush CDN"
+
+#: app/pages/class-bulk.php:642 app/views/dashboard/cdn/meta-box-header.php:21
+#: app/views/dashboard/summary-meta-box.php:69
+#: app/views/dashboard/summary-meta-box.php:105
+#: app/views/dashboard/upsell/meta-box-header.php:19
+#: app/views/dashboard/webp/meta-box-header.php:21
+#: app/views/webp/meta-box-header.php:24
+#: core/integrations/class-nextgen.php:718 core/integrations/class-s3.php:427
+#: _src/react/views/webp/steps-bar.jsx:52
+#: app/assets/js/smush-react-webp.min.js:503
+msgid "Pro"
+msgstr "专业版"
+
+#: app/views/dashboard/cdn/meta-box.php:57
+msgid "Your media is currently being served from the WPMU DEV CDN."
+msgstr "您的媒体当前由WPMU DEV CDN提供服务。"
+
+#: app/pages/class-cdn.php:89
+msgid "CDN is not yet active. Configure your settings below and click Activate."
+msgstr "cdn 尚未处于活动状态，在下面配置您的设置, 然后单击 \"激活\"。"
+
+#: app/pages/class-bulk.php:269
+msgid "Save a ton of space by not storing over-sized images on your server. Set a maximum height and width for all images uploaded to your site so that any unnecessarily large images are automatically resized before they are added to the media gallery. This setting does not apply to images smushed using Directory Smush feature."
+msgstr "不将超大图像存储在服务器上，从而节省大量空间。为上传到网站的所有图像设置最大高度和宽度，以便在将任何不必要的大图像添加到媒体库之前自动调整大小。此设置不适用于使用目录 Smush 功能进行污污的图像。"
+
+#: app/pages/class-settings.php:188
+msgid "Almost there! To finish activating this feature you must save your settings."
+msgstr "快到了！要完成激活此功能,必须保存设置。"
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: app/pages/class-settings.php:170
+msgid "Incorrect image size highlighting is active. %1$sView the frontend%2$s of your website to see if any images aren't the correct size for their containers."
+msgstr "不正确的图像大小突出显示处于活动状态。%1$s 查看网站的前端%2$s,查看是否有任何图像不是其容器的正确大小。"
+
+#: app/common/progress-bar.php:59 app/views/nextgen/progress-bar.php:43
+msgid "Resume scan."
+msgstr "继续扫描。"
+
+#: app/views/nextgen/meta-box.php:69
+msgid "View all"
+msgstr "查看全部"
+
+#: core/modules/class-resize-detection.php:139
+msgid "Note: It’s not always easy to make this happen, fix up what you can."
+msgstr "注意:要做到这一点并不总是容易的,你可以修复什么。"
+
+#: core/modules/class-resize-detection.php:129
+msgid "Oversized"
+msgstr "大号"
+
+#: core/modules/class-resize-detection.php:125
+msgid "The images listed below are being resized to fit a container. To avoid serving oversized or blurry images, try to match the images to their container sizes."
+msgstr "下面列出的图像正在调整大小以适合容器。 为避免提供过大或模糊的图像，请尝试将图像与其容器大小相匹配."
+
+#: core/modules/class-resize-detection.php:123
+msgid "Image Issues"
+msgstr "图像问题"
+
+#: app/class-media-library.php:310 app/class-media-library.php:381
+msgid "Smush: Bulk ignored"
+msgstr "Smush:批量被忽略"
+
+#: app/class-media-library.php:308 app/class-media-library.php:379
+msgid "Smush: All images"
+msgstr "Smush:所有图像"
+
+#: core/class-error-handler.php:260
+msgid "Skipped with wp_smush_image filter"
+msgstr "使用 wp_smush_image 筛选跳过"
+
+#: core/integrations/class-nextgen.php:188
+msgid "No attachment ID was received"
+msgstr "未收到附件 ID"
+
+#: core/integrations/nextgen/class-admin.php:214
+msgid "{{smushed}}/{{total}} images were successfully compressed, {{errors}} encountered issues."
+msgstr "{{total}} 图像已成功压缩, {{错误}} 遇到问题。"
+
+#: core/class-settings.php:299
+msgid "Choose how you want Smush to handle the original image file when you run a bulk smush."
+msgstr "选择运行批量优化时Smush如何处理原始图像文件."
+
+#: core/class-settings.php:298
+msgid "Original Images"
+msgstr "原始图像"
+
+#: app/modals/progress-dialog.php:64
+msgid "-/- images optimized"
+msgstr "-/- 图像已优化"
+
+#: app/common/progress-bar.php:57 app/modals/progress-dialog.php:57
+#: app/modals/reset-settings.php:37 app/modals/restore-images.php:52
+#: app/modals/restore-images.php:70 app/modals/restore-images.php:150
+#: app/modals/stop-scanning.php:30 app/modals/webp-delete-all.php:49
+#: app/views/nextgen/progress-bar.php:41 core/class-core.php:338
+#: _src/react/bulk/media-library-scanner-modal.js:25
+#: _src/react/modules/configs.jsx:37
+#: app/assets/js/smush-library-scanner.min.js:871
+#: app/assets/js/smush-react-configs.min.js:6472
+msgid "Cancel"
+msgstr "取消"
+
+#: app/modals/progress-dialog.php:38
+msgid "Bulk smushing is in progress, you need to leave this tab open until the process completes."
+msgstr "批量压缩正在进行中，您需要将此选项卡保持打开状态，直到该过程完成."
+
+#. translators: %d - number of images
+#: app/pages/class-directory.php:114
+msgid "%d image was successfully optimized"
+msgid_plural "%d images were successfully optimized"
+msgstr[0] "%d张图片已成功优化"
+
+#: core/integrations/class-gutenberg.php:103
+msgid "To use this feature you need to install and activate the Gutenberg plugin."
+msgstr "要使用此功能,您需要安装并激活古腾堡插件。"
+
+#: core/integrations/class-gutenberg.php:70
+msgid "Gutenberg Support"
+msgstr "古腾堡支持"
+
+#: core/integrations/class-gutenberg.php:69
+msgid "Show Smush stats in Gutenberg blocks"
+msgstr "在Gutenberg区块显示Smush统计数据"
+
+#. translators: %1$s - opening <a>, %2$s - closing </a>
+#: app/class-admin.php:349
+msgid "Smush uses the Stackpath Content Delivery Network (CDN). Stackpath may store web log information of site visitors, including IPs, UA, referrer, Location and ISP info of site visitors for 7 days. Files and images served by the CDN may be stored and served from countries other than your own. Stackpath's privacy policy can be found %1$shere%2$s."
+msgstr "Smush 使用堆栈路径内容交付网络 (CDN)。Stackpath 可能会将网站访问者的 Web 日志信息存储 7 天,包括网站访问者的 IP、UA、引用者、位置和 ISP 信息。CDN 提供的文件和图像可以从您自己以外的国家/地区存储和提供。Stackpath 的隐私政策可以找到 %1$shere%2$s。"
+
+#: app/modals/progress-dialog.php:108
+msgid "RESUME"
+msgstr "恢复"
+
+#: core/modules/class-dir.php:930
+msgid "Empty Directory Path"
+msgstr "空目录路径"
+
+#: core/modules/class-dir.php:733
+msgid "There was a problem getting the selected directories"
+msgstr "获取所选目录时出现问题"
+
+#: app/class-ajax.php:162 app/class-ajax.php:176 app/class-ajax.php:240
+#: app/class-ajax.php:263 app/class-ajax.php:280 app/class-ajax.php:292
+#: app/class-ajax.php:307 app/class-ajax.php:326 app/class-ajax.php:342
+#: app/class-ajax.php:506 app/class-ajax.php:626 app/class-ajax.php:857
+#: app/class-ajax.php:976 app/class-ajax.php:999 core/class-settings.php:662
+#: core/integrations/class-nextgen.php:181
+#: core/modules/bulk/class-background-bulk-smush.php:127
+#: core/modules/class-backup.php:728 core/modules/class-backup.php:747
+#: core/modules/class-dir.php:186 core/modules/class-dir.php:204
+#: core/modules/class-dir.php:230 core/modules/class-dir.php:262
+#: core/modules/class-dir.php:549 core/modules/class-dir.php:560
+#: core/modules/class-dir.php:805 core/modules/class-dir.php:922
+msgid "Unauthorized"
+msgstr "未授权"
+
+#: core/class-core.php:307
+msgid "Resume scan"
+msgstr "恢复扫描"
+
+#: app/common/progress-bar.php:66 core/class-core.php:306
+msgid "images optimized"
+msgstr "优化图像"
+
+#: app/views/nextgen/summary-meta-box.php:72
+msgid "Disabled"
+msgstr "禁用"
+
+#: app/views/dashboard/cdn/meta-box.php:68
+#: app/views/dashboard/integrations-meta-box.php:32
+#: app/views/dashboard/tools-meta-box.php:26
+#: app/views/webp/webp-meta-box.php:23
+msgid "Status"
+msgstr "统计"
+
+#: core/integrations/nextgen/class-admin.php:838
+#: core/media-library/class-media-library-row.php:539
+msgid "Resmush"
+msgstr "重新压缩"
+
+#: core/integrations/nextgen/class-admin.php:863
+#: core/media-library/class-media-library-row.php:614
+msgid "Restore"
+msgstr "恢复"
+
+#: core/media-library/class-media-library-row.php:622
+msgid "View Stats"
+msgstr "查看统计"
+
+#: app/class-abstract-page.php:687
+msgid "Documentation"
+msgstr "文档"
+
+#: app/class-abstract-page.php:676 _src/react/bulk/media-library-scanner.js:35
+#: app/assets/js/smush-library-scanner.min.js:1008
+msgid "Re-Check Images"
+msgstr "重新检查图像"
+
+#: app/views/smush-upgrade-page.php:109
+msgid "Pro Features"
+msgstr "专业版功能"
+
+#: app/common/all-images-smushed-notice.php:20 core/class-core.php:280
+msgid "All attachments have been smushed. Awesome!"
+msgstr "所有附件都已被压缩，不错！"
+
+#: app/views/bulk/media-lib-empty.php:13
+msgid "Once you upload images, reload this page and start playing!"
+msgstr "一旦您上传图像后, 重新加载此页面并开始使用!"
+
+#: app/class-media-library.php:462
+#: app/views/dashboard/integrations-meta-box.php:49
+msgid "PRO"
+msgstr "专业版"
+
+#: app/common/summary-segment.php:26
+msgid "Images Smushed"
+msgstr "已压缩图片"
+
+#: app/common/summary-segment.php:18 app/views/smush-upgrade-page.php:64
+msgid "Total Savings"
+msgstr "总计节省"
+
+#: app/class-admin.php:310 app/pages/class-dashboard.php:85
+#: app/pages/class-integrations.php:38
+#: app/views/settings/permissions-meta-box.php:75 core/class-settings.php:1169
+#: _src/react/modules/configs.jsx:146
+#: app/assets/js/smush-react-configs.min.js:6581
+msgid "Integrations"
+msgstr "集成"
+
+#: app/class-admin.php:290 app/pages/class-bulk.php:94
+#: app/pages/class-dashboard.php:74 app/pages/class-nextgen.php:57
+#: app/pages/class-nextgen.php:111
+#: app/views/dashboard/bulk/exists-uncompressed.php:53
+#: app/views/settings/permissions-meta-box.php:70 core/class-settings.php:1168
+#: core/modules/bulk/class-mail.php:96 _src/react/modules/configs.jsx:145
+#: app/assets/js/smush-react-configs.min.js:6580
+msgid "Bulk Smush"
+msgstr "批量压缩"
+
+#: core/integrations/class-s3.php:371
+msgid "To use this feature you need to install WP Offload Media and have an Amazon S3 account setup."
+msgstr "要使用此功能，您需要安装 WP 卸载媒体，并设置 Amazon S3 帐户。"
+
+#: core/class-rest.php:76
+msgid "Smushing in progress"
+msgstr "正在进行压缩处理"
+
+#: core/class-rest.php:52
+msgid "Smush data."
+msgstr "压缩数据。"
+
+#: app/common/footer-plugins-upsell.php:26
+#: app/common/footer-plugins-upsell.php:38
+#: app/common/footer-plugins-upsell.php:50
+msgid "View features"
+msgstr "查看功能"
+
+#: app/views/smush-upgrade-page.php:197
+msgid "by WPMU DEV"
+msgstr "by WPMU DEV"
+
+#: app/views/smush-upgrade-page.php:197
+msgid "Made with"
+msgstr "Made with"
+
+#: app/common/footer-plugins-upsell.php:70
+#: core/media-library/class-media-library-row.php:312
+#: _src/react/views/webp/free-content.jsx:79
+#: app/assets/js/smush-react-webp.min.js:1087
+msgid "Learn more"
+msgstr "了解更多"
+
+#: app/modals/directory-list.php:30 app/modals/progress-dialog.php:32
+msgid "Close"
+msgstr "关闭"
+
+#: app/modals/directory-list.php:26 app/modals/progress-dialog.php:28
+#: app/views/dashboard/directory-meta-box.php:69
+msgid "Choose Directory"
+msgstr "选择目录"
+
+#: app/views/lazyload/meta-box.php:219 app/views/lazyload/meta-box.php:272
+msgid "Remove"
+msgstr "删除"
+
+#: app/views/directory/meta-box.php:21
+msgid "Directory Smush - Choose Folder"
+msgstr "目录压缩 - 选择文件夹"
+
+#: app/class-admin.php:294 app/pages/class-dashboard.php:121
+#: app/pages/class-directory.php:31
+msgid "Directory Smush"
+msgstr "目录压缩"
+
+#: app/class-abstract-summary-page.php:152 app/class-admin.php:302
+#: app/pages/class-cdn.php:31 app/pages/class-cdn.php:40
+#: app/pages/class-cdn.php:50 app/pages/class-dashboard.php:96
+#: app/pages/class-dashboard.php:403 app/views/cdn/meta-box-header.php:17
+#: app/views/dashboard/summary-meta-box.php:61
+#: app/views/settings/permissions-meta-box.php:85 core/class-configs.php:614
+#: core/class-settings.php:1171 _src/react/modules/configs.jsx:148
+#: app/assets/js/smush-react-configs.min.js:6583
+msgid "CDN"
+msgstr "CDN"
+
+#. translators: %s - width, %s - height.
+#: core/modules/class-resize-detection.php:103
+msgid "This image is too small for its container. Adjust the image dimensions to %1$s x %2$spx for optimal results."
+msgstr "此映像对于其容器来说太小。将图像尺寸调整为 %1$s x %2$spx，以获得最佳效果。"
+
+#. translators: %s - width, %s - height.
+#: core/modules/class-resize-detection.php:101
+msgid "This image is too large for its container. Adjust the image dimensions to %1$s x %2$spx for optimal results."
+msgstr "此映像对于其容器来说太大。将图像尺寸调整为 %1$s x %2$spx,以获得最佳效果。"
+
+#. translators: %1$d - number of images, %2$s - opening a tag, %3$s - closing a
+#. tag
+#: app/class-admin.php:595 core/integrations/nextgen/class-admin.php:561
+msgid "Image check complete, you have %1$d images that need smushing. %2$sBulk smush now!%3$s"
+msgstr "图像检查完成，您有%1$d个图像需要压缩。%2$s立即批量压缩！%3$s"
+
+#: core/class-settings.php:292
+msgid "Detect and show incorrectly sized images"
+msgstr "检测和显示大小不正确的图像"
+
+#: core/class-settings.php:283
+msgid "Image Resizing"
+msgstr "图像大小调整"
+
+#: core/class-settings.php:278
+msgid "Metadata"
+msgstr "元数据"
+
+#: app/modals/onboarding.php:110 core/class-settings.php:277
+msgid "Strip my image metadata"
+msgstr "删除我的图像详细属性"
+
+#: app/modals/onboarding.php:20
+msgid "Optimize images up to 2x more than regular smush with our multi-pass lossy compression."
+msgstr "使用超过常规优化 2X 的多通道有损压缩优化图片大小."
+
+#: app/common/footer-plugins-upsell.php:48
+msgid "Customize Titles & Metadata, OpenGraph, Twitter & Pinterest Support, Auto-Keyword Linking, SEO & Readability Analysis, Sitemaps, URL Crawler & more."
+msgstr "自定义标题 + 元数据, 开放图形, 推特 & 兴趣支持, 自动关键字链接, SEO + 可读性分析, 站点地图, URL 抓取者 + 更多."
+
+#: app/common/footer-plugins-upsell.php:47
+msgid "SmartCrawl Search Engine Optimization"
+msgstr "SmartCrawl - SEO、搜索引擎优化"
+
+#: app/common/footer-plugins-upsell.php:36
+msgid "Security Tweaks & Recommendations, File & Malware Scanning, Login & 404 Lockout Protection, Two-Factor Authentication & more."
+msgstr "安全调整和建议, 文件和恶意软件扫描, 登录和404锁定保护, 双因素认证和更多。"
+
+#: app/common/footer-plugins-upsell.php:35
+msgid "Defender Security, Monitoring, and Hack Protection"
+msgstr "Defender - 安全、监控和黑客保护"
+
+#: app/common/footer-plugins-upsell.php:24
+msgid "Performance Tests, File Optimization & Compression, Page, Browser & Gravatar Caching, GZIP Compression, CloudFlare Integration & more."
+msgstr "性能测试，文件优化和压缩，页面，浏览器和Gravatar缓存，GZIP压缩，CloudFlare集成等."
+
+#: app/common/footer-plugins-upsell.php:23
+msgid "Hummingbird Page Speed Optimization"
+msgstr "Hummingbird Page Speed Optimization"
+
+#: app/common/footer-plugins-upsell.php:16
+msgid "Check out our other free wordpress.org plugins!"
+msgstr "查看我们其他插件!"
+
+#: core/modules/class-dir.php:1327
+msgid "Directory smushing requires custom tables and it seems there was an error creating tables. For help, please contact our team on the support forums."
+msgstr "目录压缩需要自定义表，并且似乎在创建表时出错。如需帮助，请在支持论坛上与我们的团队联系。"
+
+#. Plugin Name of the plugin
+#: app/class-admin.php:283 app/class-media-library.php:378
+#: core/integrations/nextgen/class-admin.php:135
+#: core/integrations/nextgen/class-admin.php:137
+#: core/integrations/nextgen/class-admin.php:275
+#: core/media-library/class-media-library-row.php:511
+#: core/modules/bulk/class-mail.php:65 wp-smush.php:464
+msgid "Smush"
+msgstr "Smush"
+
+#: app/class-admin.php:283 app/class-admin.php:322
+#: app/pages/class-dashboard.php:110 app/pages/class-dashboard.php:353
+#: app/views/directory/meta-box.php:43 core/modules/bulk/class-mail.php:65
+msgid "Smush Pro"
+msgstr "Smush 专业版"
+
+#: app/class-admin.php:357
+msgid "Smush uses a third-party email service (Drip) to send informational emails to the site administrator. The administrator's email address is sent to Drip and a cookie is set by the service. Only administrator information is collected by Drip."
+msgstr "Smush 使用第三方电子邮件服务 (滴水) 向网站管理员发送信息性电子邮件。管理员的电子邮件地址被发送到滴水和 cookie 设置的服务。仅通过滴水收集管理员信息。"
+
+#: app/class-admin.php:346
+msgid "Smush sends images to the WPMU DEV servers to optimize them for web use. This includes the transfer of EXIF data. The EXIF data will either be stripped or returned as it is. It is not stored on the WPMU DEV servers."
+msgstr "Smush 将图像发送到 WPMU 开发服务器, 以便为 web 使用优化它们。这包括传输 EXIF 数据。EXIF 数据将被剥离或返回, 因为它不会存储在 WPMU 开发服务器上。"
+
+#: app/class-admin.php:344
+msgid "Note: Smush does not interact with end users on your website. The only input option Smush has is to a newsletter subscription for site admins only. If you would like to notify your users of this in your privacy policy, you can use the information below."
+msgstr "注意: Smush 不与您的网站上的最终用户发生交互。唯一的输入选项只有网站管理员的新闻稿订阅。如果您想在您的隐私策略中通知您的用户, 您可以使用下面的信息。"
+
+#: app/class-admin.php:342
+msgid "Plugin: Smush"
+msgstr "插件: Smush"
+
+#: app/views/bulk/meta-box.php:86
+msgid "Click to start Bulk Smushing images in Media Library"
+msgstr "单击以在媒体库中启动批量压缩图像"
+
+#: app/views/cdn/disabled-meta-box.php:32
+msgid "GET STARTED"
+msgstr "开始"
+
+#: app/class-abstract-summary-page.php:198
+#: app/class-abstract-summary-page.php:211
+msgid "Select a directory you'd like to Smush."
+msgstr "选择您想压缩的目录。"
+
+#: app/class-media-library.php:384
+msgid "Smush Stats"
+msgstr "压缩统计"
+
+#: core/class-core.php:304
+msgid "Give us a moment while we sync the stats."
+msgstr "在我们同步统计数据时给我们一点时间."
+
+#: app/pages/class-integrations.php:88
+msgid "Note: For this process to happen automatically you need automatic smushing enabled."
+msgstr "注意: 要使此过程自动进行, 您需要启用自动压缩。"
+
+#: app/common/meta-box-footer.php:35
+msgid "Smush will automatically check for any images that need re-smushing."
+msgstr "Smush 将自动检查任何需要重新压缩的图像。"
+
+#: core/class-core.php:308
+msgid "Stop current bulk smush process."
+msgstr "停止当前批量优化进程。"
+
+#: app/class-abstract-summary-page.php:130
+msgid "PNG to JPEG savings"
+msgstr "PNG 到 JPEG 保存"
+
+#: app/views/nextgen/summary-meta-box.php:49
+msgid "Total savings"
+msgstr "总共节省"
+
+#: app/common/summary-segment.php:34
+msgid "Images Resized"
+msgstr "图像大小已调整"
+
+#: app/views/nextgen/summary-meta-box.php:41
+msgid "Images smushed"
+msgstr "图像已压缩"
+
+#: app/views/webp/disabled-meta-box.php:26
+msgid "Get started"
+msgstr "立刻开始"
+
+#: core/integrations/class-s3.php:397
+msgid "Amazon S3 support is active."
+msgstr "Amazon S3支持处于活动状态。"
+
+#: core/class-configs.php:611 core/integrations/class-s3.php:197
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: core/integrations/class-s3.php:196
+msgid "Enable Amazon S3 support"
+msgstr "启用 Amazon S3 支持"
+
+#: core/class-configs.php:612 core/integrations/class-nextgen.php:127
+msgid "NextGen Gallery"
+msgstr "NextGen Gallery"
+
+#: app/class-abstract-summary-page.php:199
+#: app/class-abstract-summary-page.php:212 app/modals/directory-list.php:56
+msgid "Choose directory"
+msgstr "选择目录"
+
+#: app/class-abstract-summary-page.php:195
+msgid "Smush images that aren't located in your uploads folder."
+msgstr "压缩图像不存在于您的上传文件中。"
+
+#: app/class-abstract-summary-page.php:192
+msgid "Directory Smush Savings"
+msgstr "目录压缩节省"
+
+#: core/class-settings.php:309
+msgid "When you compress a PNG, Smush will check if converting it to JPEG could further reduce its size."
+msgstr "压缩 PNG 时, 图像优化将检查是否将其转换为 JPEG 可以进一步减小其大小。"
+
+#: core/class-settings.php:308
+msgid "PNG to JPEG Conversion"
+msgstr "PNG 到 JPEG 转换"
+
+#: app/views/smush-upgrade-page.php:145 core/class-settings.php:307
+msgid "Auto-convert PNGs to JPEGs (lossy)"
+msgstr "自动将 PNG 转换为 JPEG(损耗)"
+
+#: app/modals/onboarding.php:49 app/modals/onboarding.php:164
+msgid "Full Size Images"
+msgstr "全尺寸图像"
+
+#: core/class-settings.php:264
+msgid "When you upload images to your site, we will automatically optimize and compress them for you."
+msgstr "当您将图像上传到您的网站时，我们将自动为您优化和压缩它们。"
+
+#. translators: %1$s: strong tag, %2$d: max width size, %3$s: tag, %4$d: max
+#. height size, %5$s: closing strong tag
+#: app/pages/class-bulk.php:177
+msgid "Currently, your largest image size is set at %1$s%2$dpx wide %3$s %4$dpx high%5$s."
+msgstr "目前, 您最大的图像大小设置为 %1$s%2$dpx wide %3$s %4$dpx high%5$s."
+
+#: app/pages/class-bulk.php:164
+msgid "Max height"
+msgstr "最大高度"
+
+#: app/pages/class-bulk.php:152
+msgid "Max width"
+msgstr "最大宽度"
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: core/integrations/class-s3.php:387
+msgid "It seems you haven’t finished setting up WP Offload Media yet. %1$sConfigure it now%2$s to enable Amazon S3 support."
+msgstr "看来您尚未完成WP Offload Media的设置。现在%1$s%2$s进行配置以启用Amazon S3支持。"
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: core/integrations/class-s3.php:376
+msgid "We are having trouble interacting with WP Offload Media, make sure the plugin is activated. Or you can %1$sreport a bug%2$s."
+msgstr "与WP Offload Media互动时遇到问题，请确保插件已激活。或者，您可以%1$s报告错误%2$s。"
+
+#: core/modules/class-dir.php:332
+msgid "Image couldn't be optimized"
+msgstr "图像无法优化"
+
+#: core/modules/class-dir.php:280
+msgid "Incorrect image id"
+msgstr "图像ID不正确"
+
+#: core/modules/class-dir.php:945
+msgid "We could not find any images in the selected directory."
+msgstr "我们在所选目录中找不到任何图像。"
+
+#: app/views/directory/meta-box.php:29
+msgid "CHOOSE DIRECTORY"
+msgstr "选择目录"
+
+#. translators: %1$s: a tag start, %2$s: closing a tag, %3$d: free image limit
+#: app/views/directory/meta-box.php:42
+msgid "%1$sUpgrade to pro%2$s to bulk smush all your directory images with one click. Free users can smush %3$d images with each click."
+msgstr "%1$s升级到专业版%2$s，只需单击一下即可批量优化所有目录图像。免费用户每次点击即可优化%3$d张图片。"
+
+#: app/class-abstract-summary-page.php:154
+#: app/class-abstract-summary-page.php:205
+msgid "Updating Stats"
+msgstr "更新状态"
+
+#: core/class-core.php:301
+msgid "Ajax Error"
+msgstr "Ajax错误"
+
+#: core/class-core.php:299
+msgid "images could not be smushed."
+msgstr "图像不能被清洗。"
+
+#: core/class-core.php:298
+msgid "image could not be smushed."
+msgstr "图像不能被压缩。"
+
+#: core/class-core.php:295
+msgid "Missing file path."
+msgstr "缺少文件路径。"
+
+#: app/class-abstract-page.php:200
+msgid "Smush Free was deactivated. You have Smush Pro active!"
+msgstr "Smush 免费版已停用，您有激活状态的专业版！"
+
+#. translators: %1$s: reduced by bytes, %2$s: size format
+#: core/integrations/nextgen/class-admin.php:681
+msgid "Reduced by %1$s (%2$01.1f%%)"
+msgstr "减少了%1$s (%2$01.1f%%)"
+
+#: app/views/nextgen/meta-box-header.php:26
+msgid "Manage Galleries"
+msgstr "管理图库"
+
+#. translators: %1$s - a href opening tag, %2$s - a href closing tag
+#: app/views/nextgen/meta-box-header.php:25
+msgid "Smush individual images via your %1$sManage Galleries%2$s section"
+msgstr "通过%1$s管理图库%2$s压缩图像"
+
+#. translators: %1$s: opening a tga, %2$s: closing a tag
+#: app/views/nextgen/meta-box.php:31
+msgid "We haven't found any images in your %1$sgallery%2$s yet, so there's no smushing to be done! Once you upload images, reload this page and start playing!"
+msgstr "我们还没有在你的 %1$sgallery%2$s 中发现任何图片， 所以没有什么可做的!一旦你上传图片后, 重新加载此页面并开始操作!"
+
+#: core/integrations/nextgen/class-admin.php:834
+#: core/media-library/class-media-library-row.php:536
+msgid "Smush image including original file"
+msgstr "压缩包含原始文件图像"
+
+#: core/integrations/nextgen/class-admin.php:859
+#: core/media-library/class-media-library-row.php:611
+msgid "Restore original image"
+msgstr "还原原始图像"
+
+#: app/class-media-library.php:455
+msgid "Image couldn't be smushed as it exceeded the 5Mb size limit, Pro users can smush images without any size restriction."
+msgstr "图片超出了5Mb的大小限制，因此无法被压缩，Pro用户可以不受任何大小限制地涂抹图像。"
+
+#. translators: %s: number of thumbnails
+#: app/class-media-library.php:449
+msgid "When you upload an image to WordPress it automatically creates %s thumbnail sizes that are commonly used in your pages. WordPress also stores the original full-size image, but because these are not usually embedded on your site we don’t Smush them. Pro users can override this."
+msgstr "当您将图像上传到WordPress时，它会自动创建页面中常用的%s缩略图尺寸。 WordPress还会存储原始的全尺寸图片，但是由于这些图片通常不会嵌入您的网站中，因此我们不会对其进行修饰。 专业版用户可以覆盖此设置。"
+
+#: core/media-library/class-media-library-row.php:621
+msgid "Detailed stats for all the image sizes"
+msgstr "所有图像尺寸的详细统计信息"
+
+#. translators: $1$s: recheck link, $2$s: closing a tag, %3$s; contact link,
+#. %4$s: closing a tag
+#: app/class-admin.php:384
+msgid "It looks like Smush couldn’t verify your WPMU DEV membership so Pro features have been disabled for now. If you think this is an error, run a %1$sre-check%2$s or get in touch with our %3$ssupport team%4$s."
+msgstr "Smush似乎无法验证您的WPMU DEV成员身份，因此Pro功能暂时已被禁用。如果您认为这是一个错误，请运行%1$sre-check%2$s或与我们的%3$s支持团队%4$s取得联系。"
+
+#: app/class-admin.php:379
+msgid "Validating..."
+msgstr "正在验证.."
+
+#: app/class-abstract-page.php:758
+msgid "Your settings have been updated!"
+msgstr "您的设置已更新！"
+
+#: app/modals/progress-dialog.php:103
+msgid "CANCEL"
+msgstr "取消"
+
+#: app/views/nextgen/meta-box.php:52 app/views/nextgen/progress-bar.php:23
+msgid "Bulk smush is currently running. You need to keep this page open for the process to complete."
+msgstr "批量压缩正在运行，请不要关闭本页面，以便完成该过程。"
+
+#: app/views/bulk/media-lib-empty.php:17
+#: app/views/dashboard/bulk/media-lib-empty.php:10
+#: app/views/nextgen/meta-box.php:42
+msgid "UPLOAD IMAGES"
+msgstr "上传图片"
+
+#: app/views/bulk/media-lib-empty.php:5 app/views/nextgen/meta-box.php:25
+msgid "No attachments found - Upload some images"
+msgstr "找不到附件 - 上传一些图像"
+
+#: app/pages/class-bulk.php:197
+msgid "Just to let you know, the height you’ve entered is less than your largest image and may result in pixelation."
+msgstr "只是让你知道，你输入的高度小于你最大的图像，可能会导致像素化。"
+
+#: app/pages/class-bulk.php:189
+msgid "Just to let you know, the width you've entered is less than your largest image and may result in pixelation."
+msgstr "只是为了让您知道，您输入的宽度小于您最大的图像，可能会导致像素化。"
+
+#: app/class-abstract-page.php:673
+msgid "Lets you check if any images can be further optimized. Useful after changing settings."
+msgstr "让您检查是否可以进一步优化任何图像。 更改设置后有用。"
+
+#: app/views/bulk/meta-box.php:87 app/views/nextgen/meta-box.php:81
+msgid "BULK SMUSH"
+msgstr "批量压缩"
+
+#: app/views/bulk/meta-box-header.php:26
+msgid "Media Library"
+msgstr "媒体库"
+
+#. translators: %1$s - a href opening tag, %2$s - a href closing tag
+#: app/views/bulk/meta-box-header.php:25
+msgid "Smush individual images via your %1$sMedia Library%2$s"
+msgstr "通过您的 %1$s媒体库%2$s 压缩个人图像"
+
+#. translators: %s: error message
+#: core/integrations/class-nextgen.php:697
+msgid "Unable to smush image, %s"
+msgstr "无法压缩图像，%s"
+
+#: core/integrations/class-nextgen.php:657
+msgid "We couldn't process the image, fields empty."
+msgstr "我们无法处理图像，字段为空。"
+
+#: core/integrations/class-nextgen.php:355
+#: core/integrations/class-nextgen.php:356
+msgid "We couldn't find the metadata for the image, possibly the image has been deleted."
+msgstr "我们找不到图片的元数据，可能图像已被删除。"
+
+#: core/backups/class-backups-controller.php:73
+#: core/integrations/class-nextgen.php:644 core/modules/class-backup.php:597
+msgid "Unable to restore image"
+msgstr "无法恢复图像"
+
+#: core/integrations/class-nextgen.php:543
+msgid "Image not restored, Nonce verification failed."
+msgstr "图像恢复，目前验证失败。"
+
+#: core/integrations/class-nextgen.php:533
+msgid "Error in processing restore action, Fields empty."
+msgstr "处理还原操作时出错，字段为空。"
+
+#. translators: %1$s - <a>, %2$s - </a>
+#: app/class-abstract-page.php:778
+msgid "You have images that need smushing. %1$sBulk smush now!%2$s"
+msgstr "你有需要压缩的图像。%1$s 立即批量压缩!%2$s"
+
+#: app/class-admin.php:589 core/integrations/nextgen/class-admin.php:567
+msgid "Yay! All images are optimized as per your current settings."
+msgstr "好极了！ 所有图像都会根据您当前的设置进行优化。"
+
+#: app/views/bulk/media-lib-empty.php:12
+msgid "We haven’t found any images in your media library yet so there’s no smushing to be done!"
+msgstr "我们还没有在您的媒体库中找到任何图像，所以没有什么可以做的！"
+
+#: app/class-ajax.php:420 core/integrations/class-nextgen.php:666
+msgid "Image couldn't be smushed as the nonce verification failed, try reloading the page."
+msgstr "由于随机验证失败，图像无法被清除，请尝试重新加载页面。"
+
+#: app/class-ajax.php:411
+msgid "Image not smushed, fields empty."
+msgstr "图像没有被压缩，字段为空。"
+
+#. translators: %s: total number of images
+#: core/modules/class-dir.php:1250
+msgid "You've smushed %d images in total."
+msgstr "你已经完全压缩了%d张图像。"
+
+#: core/class-core.php:294
+msgid "Your membership couldn't be verified."
+msgstr "您的会员资格无法验证。"
+
+#: core/class-core.php:293
+msgid "We successfully verified your membership, all the Pro features should work completely. "
+msgstr "我们成功验证了您的会员资格，所有的Pro功能都应该完全正常运行 "
+
+#: core/class-core.php:290 core/integrations/nextgen/class-admin.php:231
+msgid "Smushing image..."
+msgstr "压缩图像中.."
+
+#: core/class-core.php:289 core/integrations/nextgen/class-admin.php:230
+msgid "Restoring image..."
+msgstr "恢复图像.."
+
+#: core/class-core.php:279 core/integrations/nextgen/class-admin.php:229
+msgid "All images are fully optimized."
+msgstr "所有图像都经过完全优化。"
+
+#: core/integrations/class-nextgen.php:128
+msgid "Allow smushing images directly through NextGen Gallery settings."
+msgstr "允许通过NextGen Gallery设置直接清除图像。"
+
+#: core/integrations/class-nextgen.php:126
+msgid "Enable NextGen Gallery integration"
+msgstr "启用NextGen Gallery集成"
+
+#: core/class-settings.php:282
+msgid "Resize original images"
+msgstr "调整原始图像大小"
+
+#: core/class-settings.php:262
+msgid "Automatically compress my images on upload"
+msgstr "在上传时自动压缩图像"
+
+#: app/pages/class-bulk.php:632
+msgid "New"
+msgstr "最新"
+
+#: app/views/dashboard/cdn/meta-box.php:30
+#: app/views/dashboard/lazy-load-meta-box.php:24
+#: app/views/dashboard/webp/meta-box.php:29
+#: app/views/lazyload/disabled-meta-box.php:27
+msgid "Activate"
+msgstr "启用"
+
+#: app/class-abstract-page.php:245
+msgid "Install Plugin"
+msgstr "安装插件"
+
+#: app/class-abstract-page.php:731 app/class-admin.php:503
+#: app/class-admin.php:707 app/class-admin.php:751
+#: app/pages/class-directory.php:176 app/pages/class-directory.php:177
+#: core/class-core.php:315
+#: core/external/free-dashboard/classes/notices/class-rating.php:82
+#: core/external/plugin-notice/notice.php:485
+msgid "Dismiss"
+msgstr "忽略"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#. Description of the plugin
+msgid "Reduce image file sizes, improve performance and boost your SEO using the free <a href=\"https://wpmudev.com/\">WPMU DEV</a> WordPress Smush API."
+msgstr "使用免费的<a href=\"https://wpmudev.com/\"> WPMU DEV </a> WordPress Smush API减小图像文件大小，提高性能并提高您的SEO。"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/wp-smushit/"
+msgstr "http://wordpress.org/plugins/wp-smushit/"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:94
+#: core/external/free-dashboard/classes/notices/class-email.php:213
+#: wp-smush.php:443
+msgid "Get Fast!"
+msgstr "快速得到！"
+
+#: app/class-media-library.php:387
+#: core/integrations/nextgen/class-admin.php:762
+#: core/media-library/class-media-library-row.php:466
+msgid "Savings"
+msgstr "保存"
+
+#: app/class-media-library.php:386
+#: core/integrations/nextgen/class-admin.php:761
+#: core/media-library/class-media-library-row.php:465
+msgid "Image size"
+msgstr "图片大小"
+
+#: app/class-media-library.php:427
+msgid "Smush Now!"
+msgstr "立即压缩！"
+
+#: app/class-media-library.php:496 core/class-core.php:313
+#: core/class-error-handler.php:263 core/class-rest.php:82
+#: core/integrations/nextgen/class-admin.php:269
+#: core/media-library/class-media-library-row.php:75
+#: core/media-library/class-media-library-row.php:354
+msgid "Not processed"
+msgstr "未处理"
+
+#: core/integrations/nextgen/class-admin.php:713
+msgid "Smush stats"
+msgstr "压缩统计"
+
+#: core/class-core.php:300 core/integrations/nextgen/class-admin.php:667
+#: core/integrations/nextgen/class-admin.php:670
+msgid "Already Optimized"
+msgstr "已经优化"
+
+#: core/modules/class-smush.php:560 core/smush/class-smusher.php:376
+msgid "Image couldn't be smushed"
+msgstr "图像不能被压缩"
+
+#: core/modules/class-smush.php:577 core/smush/class-smusher.php:412
+msgid "Smush data corrupted, try again."
+msgstr "Smush数据损坏，再试一次。"
+
+#. translators: 1: Error code, 2: Error message
+#. translators: 1: Error code, 2: Error message.
+#: core/modules/class-smush.php:548 core/smush/class-smusher.php:362
+msgid "Error posting to API: %1$s %2$s"
+msgstr "发布到 API 时出错: %1$s %2$s"
+
+#. translators: %s: Error message.
+#: core/modules/class-smush.php:540 core/smush/class-smusher.php:352
+msgid "Error posting to API: %s"
+msgstr "发布到API的错误：%s"
+
+#: core/modules/class-smush.php:566 core/smush/class-smusher.php:388
+msgid "Unknown API error"
+msgstr "未知API错误"
+
+#. translators: %s: Directory path
+#: core/class-error-handler.php:269
+msgid "%s is not writable"
+msgstr "%s 不可写"
+
+#: core/class-error-handler.php:261
+msgid "File path is empty"
+msgstr "文件路径为空"
+
+#: app/class-ajax.php:390 core/integrations/class-nextgen.php:428
+msgid "No attachment ID was provided."
+msgstr "没有提供附件ID。"
+
+#: app/class-ajax.php:382 app/class-ajax.php:428
+#: core/backups/class-backups-controller.php:56
+#: core/integrations/class-nextgen.php:420
+#: core/media/class-media-item-controller.php:29
+#: core/media/class-media-item-controller.php:56
+#: core/modules/class-backup.php:408
+msgid "You don't have permission to work with uploaded files."
+msgstr "您没有使用上传的文件的权限。"
+
+#: app/common/meta-box-footer.php:17
+msgid "Save changes"
+msgstr "保存更改"
+
+#: app/class-admin.php:234 app/class-admin.php:314 app/pages/class-bulk.php:108
+#: _src/react/modules/configs.jsx:150
+#: app/assets/js/smush-react-configs.min.js:6585
+msgid "Settings"
+msgstr "设置"
+
+#: app/views/nextgen/summary-meta-box.php:65
+msgid "Super-Smushed images"
+msgstr "超级压缩图像"
+
+#: core/class-core.php:276 core/integrations/nextgen/class-admin.php:227
+msgid "Smush Now"
+msgstr "立即压缩"
+
+#: core/class-core.php:275 core/integrations/nextgen/class-admin.php:226
+msgid "Super-Smush"
+msgstr "超级压缩"
+
+#: core/class-core.php:303
+msgid "All Done!"
+msgstr "全部完成！"
+
+#: app/class-media-library.php:426
+msgid "Smushing in progress..."
+msgstr "图像正在处理中.."
+
+#: app/class-admin.php:361
+msgid "WP Smush"
+msgstr "WP Smush"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:98
+msgid "No thanks"
+msgstr "不了，谢谢"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:97
+#: core/external/free-dashboard/classes/notices/class-rating.php:81
+msgid "Saving"
+msgstr "正在保存"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:93
+#: core/external/free-dashboard/classes/notices/class-rating.php:77
+msgid "Thanks :)"
+msgstr "谢谢您 :)"

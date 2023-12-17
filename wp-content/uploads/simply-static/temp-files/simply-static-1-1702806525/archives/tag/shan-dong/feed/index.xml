@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>山东 &#8211; 瑞士中国学人科技协会</title>
+	<atom:link href="/archives/tag/shan-dong/feed" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description></description>
+	<lastBuildDate>Tue, 03 Apr 2012 23:35:55 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>2012山东省人才需求及政策</title>
+		<link>/archives/7113.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 03 Apr 2012 23:35:55 +0000</pubDate>
+				<category><![CDATA[通知]]></category>
+		<category><![CDATA[山东]]></category>
+		<guid isPermaLink="false">http://www.sinotech.ch/?p=1486</guid>
+
+					<description><![CDATA[海外高层次创新人才需求情况汇总表（创新）.xls
+海外高层次人才需求汇总表（创业）.xls
+山东省有关高校、企业、科研院所及17市引才政策汇总.doc]]></description>
+										<content:encoded><![CDATA[<p>具体详见以下相关文档<br />
+<a href="http://www.sinotech.ch/wp-content/uploads/2012/04/海外高层次创新人才需求情况汇总表（创新）.xls">海外高层次创新人才需求情况汇总表（创新）.xls</a><br />
+<a href="http://www.sinotech.ch/wp-content/uploads/2012/04/海外高层次人才需求汇总表（创业）.xls">海外高层次人才需求汇总表（创业）.xls</a><br />
+<a href='http://www.sinotech.ch/wp-content/uploads/2012/04/201204山东省人才需求及政策.rar'>201204山东省人才需求及政策</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
